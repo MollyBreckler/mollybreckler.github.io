@@ -1,39 +1,209 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>outcome</title>
+		<title>HOME</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-		<style media="screen">
-		a:link {
-		color: red;
-		text-decoration: none;
-		}
+      <style media="screen">
+			*{
+  box-sizing:border-box;
+}
 
-		a:visited {
-		color: white;
-		text-decoration: none;
-		}
+.row{
+  display:flex;
+  flex-wrap:wrap;
+}
 
-		a:hover {
-		color: red;
-		text-decoration: line-through;
-		}
+.col{
+  flex:0 0 33.333%;
+  background-color:white;
 
-		a:active {
-		color: white;
-		text-decoration: none;
-		}
+}
+.col__1of3{
+  flex: 0 0 33.333%;
+}
+
+.col__2of3{
+  flex: 0 0 66.666%;
+}
+
+.content{
+  background-color: lightpink;
+  margin:10px;
+   padding: 10px;
+}
+
+.title{
+  flex:1 1;
+  padding-left:40px;
+  font-size:40px;
+}
+
+.content img{
+  width:100%
+}
+
+.nav a{
+  flex: 1 1;
+  padding: 10px;
+  text-align: center;
+  color: lightpink;
+  text-decoration: none;
+}
+
+.heroimage img{
+  width: 100%;
+   margin:auto;
+  text-align: center;
+}
+.heroimage {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.herotitle{
+  font-size: 30px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.alignment__bottom{
+  align-items:flex-end;
+
+}
+
+a:link {
+color: red;
+text-decoration: none;
+}
+
+a:visited {
+color: red;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+text-decoration: line-through;
+}
+
+a:active {
+color: red;
+text-decoration: none;
+}
+
+			</style>
+		</head>
+		<body>
+
+
+			<div class="row nav">
+				 <a href="page1.html">Home</a>
+				 <a href="page2.html">About</a>
+				 <a href="page3.html">Blog</a>
+				 <a href="page4.html">Collection</a>
+				<a href="page5.html">Store</a>
+				<a href="page6.html">Buy Now</a>
+		</div>
+
+
+		<div class="heroimage">
+		   <img src="http://www.metmuseum.org/-/media/Images/About%20The%20Met/Breuer-day.jpg?la=en" alt="" />
+		   Caption to Image
+		</div>
+
+
+		<div class="row">
+		  <div class="title">
+		    Humans of Simulated New York Humans of Simulated New York
+		  </div>
+		</div>
+
+
+		<div class="row">
+		    <div class="col__1of3">
+		    <div class="content">
+		    Lorem Ipsum is simply dummy text of the printing and     typesetting industry.<br> Lorem Ipsum has been the       industry's standard dummy text ever since the 1500s.
+		     </div>
+		     </div>
+		      <div class="col__1of3">
+		        <div class="content">
+		      Lorem Ipsum is simply dummy text of the printing         and typesetting industry.<br> Lorem Ipsum has been       the industry's standard dummy text ever since the       1500s.
+		      </div>
+		      </div>
+		      <div class="col__1of3">
+		      <div class="content">
+		      Lorem Ipsum is simply dummy text of the printing         and typesetting industry.<br> Lorem Ipsum has been       the industry's standard dummy text ever since the       1500s.
+		      </div>
+		      </div>
+
+		</div>
+
+		<div class="row">
+
+		    <div class="col__2of3">
+		    <div class="content">
+		      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		    </div>
+		  </div>
+
+		    <div class="col__1of3">
+		    <div class="content">
+		      <img src="http://www.metmuseum.org/-/media/Images/About%20The%20Met/Breuer-day.jpg?la=en" alt="" />
+
+		      Image caption
+		      </div>
+		    </div>
 
 
 
-		</style>
-	</head>
-	<body>
-		<br>
-<a href="../index.html">Home</a>
-<a href="outcome/page2.html">Page2</a>
+		  </div>
+
+		<div class="row">
+		  <div class="col__1of3">
+		    <div class="content">
+		      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		    </div>
+		  </div>
+		  <div class="col__2of3">
+		    <div class="content">
+		      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		    </div>
+		  </div>
+		  </div>
+
+		<div class="row">
+		  <div class="col__2of3">
+		    <div class="content">
+		          <img src="http://www.metmuseum.org/-/media/Images/About%20The%20Met/Breuer-day.jpg?la=en" alt="" />
+		    </div>
+		  </div>
+		  <div class="col__1of3">
+		    <div class="content">
+		      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		    </div>
+		  </div>
 
 
-	</body>
-</html>
+
+		  <div class="row alignment__bottom">
+		    <div class="col__2of3">
+		      <div class="content">
+		        <img src="http://www.metmuseum.org/-/media/Images/About%20The%20Met/Breuer-day.jpg?la=en" alt="" />
+
+		      </div>
+		    </div>
+
+		    <div class="col__1of3">
+		      <div class="content">
+		         Lorem Ipsum passages, and more recently with desktop publishing software.
+		      </div>
+		    </div>
+
+
+		<!-- end of row -->
