@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>HOME</title>
+		<title>BLOG</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
       <style media="screen">
@@ -38,12 +38,14 @@ body
   background-color: white;
   margin:10px;
    padding: 10px;
+
 		 display: inline-block;
 		 width: 400px;
-		 border: 5px solid;
+		 border: 5px black solid;
 		 vertical-align: top;
 		 font-family: arial;
 		 font-size: 20px;
+		 color: black;
 
 	 }
 
@@ -77,38 +79,139 @@ body
 
 }
 
-a:link {
-color: pink;
-text-decoration: none;
-font-family: arial bold;
-font-size: 20px;
+element.style {
+    opacity: 1;
 }
 
-a:visited {
-color: black;
-text-decoration: none;
-font-family: arial;
-font-size: 20px;
+.infinite-scroll .grid {
+    margin-bottom: 85px;
 }
 
-a:hover {
-color: black;
-text-decoration: line-through;
-font-family: arial;
-font-size: 20px;
+.grid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition-delay: initial;
 }
 
-a:active {
-color: black;
-text-decoration: none;
-font-family: arial;
-font-size: 20px;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
+
+div {
+    display: block;
+}
+
+body {
+    font-size: 16px;
+}
+
+body {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    line-height: 1.625;
+    font-weight: 200;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.word-wrap, body {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.625;
+    /* overflow-x: hidden; */
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
 
 body{
 	background-color: white;
 }
 
+
+.grid .bricklayer-column-sizer {
+    width: 100%;
+    display: none;
+}
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-size: 16px;
+}
+
+body {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
+    line-height: 1.625;
+    font-weight: 200;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.word-wrap, body {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    word-break: break-word;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.625;
+    /* overflow-x: hidden; */
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 			</style>
 		</head>
 		<body>
@@ -129,7 +232,12 @@ body{
 			&nbsp;
 						<a href="buynow.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/money-mouth-face.png" alt="" width="4%" height="4%"></div></a>
 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<a href="facebook.html"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-5/128/Facebook.png" alt="" width="2%" height="2%"></div></a>
+									&nbsp;
+												<a href="snapchat.html"><img src="https://cdn-img.easyicon.net/png/11265/1126551.gif" alt="" width="2%" height="2%"></div></a>
 			</center>
+
 
 
 <br>
@@ -156,7 +264,7 @@ body{
 		<div class="row">
 		    <div class="col__1of3">
 		    <div class="content">
-		    5 REASONS WHY WE LOVE, LOVE
+		   <center> 5 REASONS WHY WE LOVE, LOVE </center>
 		     </div>
 		     </div>
 			 </div>
@@ -175,7 +283,7 @@ body{
 
 		      <div class="col__1of3">
 		        <div class="content">
-		      SHOE OF THE SEASON
+		      <center> SHOE OF THE SEASON </center>
 		      </div>
 				</div>
 			</div>
@@ -195,7 +303,7 @@ body{
 
 		      <div class="col__1of3">
 		      <div class="content">
-		       5 BEST COCKTAIL RECIPES TO MAKE WITH YOUR FRIENDS
+		      <center> 5 BEST COCKTAIL RECIPES TO MAKE WITH YOUR FRIENDS </center>
 		      </div>
 		      </div>
 		</div>
@@ -216,15 +324,7 @@ body{
 
 		<div class="col__1of3">
 		<div class="content">
-		 WANT TO GO DANCING WITH YOUR PARTNER? HERE ARE THE BEST PLACES TO GO...
+		 <center> WANT TO GO DANCING WITH YOUR PARTNER? HERE ARE THE BEST PLACES TO GO... </center>
 		</div>
 		</div>
 </div>
-
-
-
-
-
-
-
-		<!-- end of row -->
