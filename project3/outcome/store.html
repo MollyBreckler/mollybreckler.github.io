@@ -5,105 +5,97 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
       <style media="screen">
-			*{
-  box-sizing:border-box;
-}
 
-.row{
-  display:flex;
-  flex-wrap:wrap;
-}
+			* {
+			  box-sizing: border-box;
+			}
 
-.col{
-  flex:0 0 33.333%;
-  background-color:white;
 
-}
-.col__1of3{
-  flex: 0 0 33.333%;
-}
+			/* Start here */
 
-.col__2of3{
-  flex: 0 0 66.666%;
-}
+			body {
+			  font-family: arial;
+			  font-size: 30px;
+			}
 
-.content{
-  background-color: lightpink;
-  margin:10px;
-   padding: 10px;
-}
+			.main {
+			  width: 80%;
+			  margin: auto;
+			}
 
-.title{
-  flex:1 1;
-  padding-left:40px;
-  font-size:40px;
-}
+			h1 {
+			  font-weight: normal;
+			  text-transform: uppercase;
+			  text-align: center;
+			  font-size: 30px;
+			}
 
-.content img{
-  width:100%
-}
+			.rollover {
+			  color: red;
+			}
 
-.nav a{
-  flex: 1 1;
-  padding: 10px;
-  text-align: center;
-  color: lightpink;
-  text-decoration: none;
-}
+			.rollover:hover {
+			  color: blue;
+			}
 
-.heroimage img{
-  width: 100%;
-   margin:auto;
-  text-align: center;
-}
-.heroimage {
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
-.herotitle{
-  font-size: 30px;
-  width: 60%;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 100px;
-}
+			/*Two effects blur and rotate*/
 
-.alignment__bottom{
-  align-items:flex-end;
+			/* These are general classes */
 
-}
+			.blur {
+			  position: fixed;
+			  opacity: 0;
+			  filter: blur(20px);
+			  transition: all 2s;
+			  pointer-events: none;
+			}
 
-a:link {
-color: pink;
-text-decoration: none;
-font-family: arial;
-font-size: 20px;
-}
+			.blur.showme {
+			  opacity: 1;
+			  transition: all 2s;
+			  filter: blur(0px);
+			}
 
-a:visited {
-color: pink;
-text-decoration: none;
-font-family: arial;
-font-size: 20px;
-}
 
-a:hover {
-color: pink;
-text-decoration: line-through;
-font-family: arial;
-font-size: 20px;
-}
+			.rotate {
+			  position: fixed;
+			  visibility: hidden;
+			  transform: scale(0) rotate(0deg);
+			  transition: all 2s;
+			  pointer-events: none;
+			  top: 0;
+			  left: -50vw;
+			}
 
-a:active {
-color: pink;
-text-decoration: none;
-font-family: arial;
-font-size: 20px;
-}
+			.rotate.showme {
+			  transform: scale(1) rotate(360deg);
+			  display: block;
+			  transition: all 2s;
+			  visibility: visible;
+			  top: 0px;
+			  left: 50vw;
+			}
+
+
+			/* Image layout ie specific classes*/
+
+			.oase__image {
+			  top: 20px;
+			  right: 100px;
+			}
+
+			.magazine__image {
+			  top:0px;
+			  right:100px;
+			}
+
+			.landscape__image {
+			  top: 20px;
+			  right: 100px;
+			}
+
+
 
 body{
 	background-color: white;
@@ -137,9 +129,53 @@ body{
 
 <br>
 <br>
-					    <div class="col__1of3">
-					    <div class="content">
-					      <img src="http://www.pardot.com/content/uploads/2016/03/emoji-group.jpg" alt="" />
+
+
+<center>
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/face-throwing-a-kiss.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/grinning-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/nerd-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/weary-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/sleeping-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+								<img src="http://powerframefitness.com/images/body_emoji_crying.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/dizzy-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/relieved-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/pouting-face.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							  <img src="https://s-media-cache-ak0.pinimg.com/236x/f2/0e/08/f20e08e6df10ba0a138ff302dccf0ee9.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://s-media-cache-ak0.pinimg.com/736x/9d/32/ec/9d32ec78da88bbe981a600fd152896ef.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+								<img src="http://www.tracyctran.com/wp-content/uploads/2015/12/emoji.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://i.ebayimg.com/thumbs/images/g/phsAAOSwaB5XrCKP/s-l225.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://mobileday.com/wp-content/uploads/2016/07/shock.jpeg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://katiestjohnshin.files.wordpress.com/2016/03/emoji-fake-grin.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://s-media-cache-ak0.pinimg.com/736x/f0/91/47/f091471b771ba7d780edb9c042c81566--cute-emoji-emojis.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://laurenhuyettinteriors.files.wordpress.com/2015/05/images-31.jpeg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+								<img src="https://s-media-cache-ak0.pinimg.com/236x/07/ef/c5/07efc5c13a8d55dc5e6fccdfc45250fb.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://s-media-cache-ak0.pinimg.com/236x/a4/cb/6a/a4cb6ad4ae2f763d6068693ce412532f.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://lh3.googleusercontent.com/6Tfz9hbuplLI3YycGBQ09BIMQPgVDIkkrvuGqdwVhPJ1AekPhbkr3ailMv7oN9P6uGAFqOVLX932Gb-tOCIJ83xa49UeD0Na1ABpuiys-GRTvPqOh41ECTyhPSB-eTmYPdn-P7Bd" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							  <img src="http://www.jochets.com/uploads/2/1/0/2/21023106/5125270.jpg" alt="" width="11%"height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://s-media-cache-ak0.pinimg.com/236x/37/8e/f3/378ef3f4a8929dd66716d382bbc34687.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://s-media-cache-ak0.pinimg.com/originals/82/81/1d/82811dbb82069c6472107f3a012332ee.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><Br>
+								<img src="https://www.fasthorseinc.com/wp-content/uploads/2015/09/hearteyes.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/face-throwing-a-kiss.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://media.quizizz.com/resource/gs/quizizz-media/questions/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVvVVpUWEFmek9Pb2xkUG1QZlJacWRSaWlrWFJxYXhtaS1nOUFjeXk4VXItS3NGUjFWR3ZDWk9UWHJRcDYxQkVIdkluVlV3cXA5WkxzQVA1YzB1SFRRQTg0blktUnRFMzVSb2xuak1ZS2ZWdE9vQ25SWS5IWjVaRGJWYS01SGc3WTZX" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/face-throwing-a-kiss.png" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="https://criticsmaylie.files.wordpress.com/2016/03/seriously.jpg?w=529" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<img src="http://www.cosmopolitanme.com/sites/default/files/images/2016/07/14/download-%285%29.jpg" alt="" width="11%" height="11%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+</center>
+
+
+
+
+
+
+													    <div class="col__1of3">
+													    <div class="content">
+
+								<img src="http://www.pardot.com/content/uploads/2016/03/emoji-group.jpg" alt="" />
 
 
 					      </div>
