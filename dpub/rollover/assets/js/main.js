@@ -15,13 +15,13 @@ $(document).ready(function() {
 
 
 
-      $('.93').mouseenter(function() {
-        $('.93__image').addClass('showme');
+      $('.c93').mouseenter(function() {
+        $('.c93__image').addClass('showme');
       });
 
 
-        $('.93').mouseleave(function() {
-          $('.93__image').removeClass('showme');
+        $('.c93').mouseleave(function() {
+          $('.c93__image').removeClass('showme');
         });
 
 

@@ -1,32 +1,273 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ABOUT</title>
+		<title>HOME</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+      <style media="screen">
+			*{
+  box-sizing:border-box;
+}
 
-<body>
-  <center>
-    <br>
-    <br>
+.row{
+  display:flex;
+  flex-wrap:wrap;
+}
 
-        <a href="home.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/house-building.png" alt="" width="4%" height="4%"></div></a>
-  &nbsp;
-        <a href="about.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/black-question-mark-ornament.png" alt="" width="4%" height="4%"></div></a>
-  &nbsp;
-        <a href="blog.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/camera.png" alt="" width="4%" height="4%"></div></a>
-  &nbsp;
-        <a href="trends.html"><img src="http://www.charlestoncrafted.com/wp-content/uploads/2014/10/cha-cha-dancer.png" alt="" width="4%" height="4%"></div></a>
-  &nbsp;
-        <a href="store.html"><img src="https://emojipedia-us.s3.amazonaws.com/cache/fd/14/fd141f947601eaa12f83d94d80c31a78.png" alt="" width="4%" height="4%"></div></a>
-  &nbsp;
-        <a href="buynow.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/money-mouth-face.png" alt="" width="4%" height="4%"></div></a>
+.col{
+  flex:0 0 33.333%;
+  background-color:white;
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="facebook.html"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-5/128/Facebook.png" alt="" width="2%" height="2%"></div></a>
-              &nbsp;
-                    <a href="snapchat.html"><img src="https://cdn-img.easyicon.net/png/11265/1126551.gif" alt="" width="2%" height="2%"></div></a>
-  </center>
+}
+.col__1of3{
+  flex: 0 0 33.333%;
+}
+
+.col__2of3{
+  flex: 0 0 66.666%;
+}
+
+.content{
+  background-color: lightpink;
+  margin:10px;
+   padding: 10px;
+}
+
+.title{
+  flex:1 1;
+  padding-left:40px;
+  font-size:40px;
+}
+
+.content img{
+  width:100%
+}
+
+.nav a{
+  flex: 1 1;
+  padding: 10px;
+  text-align: center;
+  color: lightpink;
+  text-decoration: none;
+}
+
+.heroimage img{
+  width: 100%;
+   margin:auto;
+  text-align: center;
+}
+.heroimage {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.herotitle{
+  font-size: 30px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.alignment__bottom{
+  align-items:flex-end;
+
+}
+
+a:link {
+color: pink;
+text-decoration: none;
+font-family: arial;
+font-size: 20px;
+}
+
+a:visited {
+color: pink;
+text-decoration: none;
+font-family: arial;
+font-size: 20px;
+}
+
+a:hover {
+color: pink;
+text-decoration: line-through;
+font-family: arial;
+font-size: 20px;
+}
+
+a:active {
+color: pink;
+text-decoration: none;
+font-family: arial;
+font-size: 20px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+    background: #f3f3f5;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(243, 243, 245);
+    left: 0;
+    right: 0;
+}
+
+body {
+    color: #222;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    position: relative;
+    cursor: auto;
+}
+
+body,html {
+    font-size: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(29,29,31,.1);
+}
+
+* :after, :before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+body, html {
+    font-size: 100%;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(29,29,31,.1);
+}
+
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+			</style>
+		</head>
+		<body>
+
+
+			<div class="row nav">
+				<a href="home.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="blog.html">Blog</a>
+				<a href="trends.html">Trends</a>
+			 <a href="store.html">Store</a>
+			 <a href="buynow.html">Buy Now</a>
+		</div>
+
+
+		<body>
+
+
+
+
+
+        <main id="js-page-view" class="page-view app-started">
+
+
+
+	<div class="page page-about" style="opacity: 1;">
+
+	    <div ng-include="" src="'templates/global/navbar.html'"></div>
+
+	    <div id="about-page">
+	        <section id="aboutintro" class="about-template scroll-item transform-container">
+	            <div class="start scroll-item">
+	                <h1 data-0p="transform: translate3d(0,0vh,0); opacity:1" data-100p="transform: translate3d(0,-40vh,0); opacity:0" class="skrollable skrollable-between" style="transform: translate3d(0px, 0vh, 0px); opacity: 1;">Our Story<br>So far</h1>
+	                <span data-0p="transform: translate3d(0,0vh,0); opacity:1" data-100p="transform: translate3d(0,40vh,0); opacity:0" class="skrollable skrollable-between" style="transform: translate3d(0px, 0vh, 0px); opacity: 1;">↓</span>
+	            </div>
+	        </section>
+
+
+			        <section class="about-template about-template-1 transform-container">
+			            <figure data-bottom-center="opacity:0.2" data-25p-bottom="opacity:1" style="background-image: url(&quot;https://www.etq-amsterdam.com/app/uploads/2016/02/About_1.jpg&quot;); opacity: 0.2;" class="skrollable skrollable-before">
+			                <img ng-src="https://www.etq-amsterdam.com/app/uploads/2016/02/About_1.jpg" imageonload="">
+			            </figure>
+			            <aside>
+			                <div class="vertical-center skrollable skrollable-before" data-bottom-center="transform: translate3d(-10%,-50%,0);opacity:0" data-bottom-bottom="transform: translate3d(0%,-50%,0);opacity:1" style="transform: translate3d(-10%, -50%, 0px); opacity: 0;">
+			                    <div class="scroll-item">
+			                        <h2>The start</h2>
+			                        <p class="large">ETQ, founded in 2010, was born under the mindset of eliminating over-accessorized branding and focusing primary on letting the quality of the product speak for itself. All our designs are created under three standard rules: elegant, timeless, quality. Slowly, this belief grew into a range of footwear and accessories that live up to the ETQ standard.</p>
+			                    </div>
+			                    <div class="scroll-item">
+			                        <h2>The storm</h2>
+			                        <p>With a strong focus and conceptual thinking, ETQ is driven to create aesthetic yet functional, enduring footwear that distinctively set it apart from the norm. Prioritizing customer satisfaction and creating aspiring elegant quality above everything, we have successfully garnered a substantial amount of acknowledgement among them.</p>
+			                    </div>
+			                </div>
+			            </aside>
+			        </section>
+
+
+			        <section class="about-template about-template-2 transform-container">
+			            <figure data-bottom-center="opacity:0.2" data-25p-bottom="opacity:1" style="background-image: url(&quot;https://www.etq-amsterdam.com/app/uploads/2016/02/ABOUT2.jpg&quot;); opacity: 0.2;" class="skrollable skrollable-before">
+			                <img ng-src="https://www.etq-amsterdam.com/app/uploads/2016/02/ABOUT2.jpg" imageonload="">
+			            </figure>
+			            <aside>
+			                <div class="vertical-center skrollable skrollable-before" data-bottom-center="transform: translate3d(10%,-50%,0);opacity:0" data-bottom-bottom="transform: translate3d(0%,-50%,0);opacity:1" style="transform: translate3d(10%, -50%, 0px); opacity: 0;">
+			                    <div class="scroll-item">
+			                        <h2>Getting serious</h2>
+			                        <p class="large">Smart, yet simple designs often require a lot of energy to find and money to buy. With our vision in mind, instead of blindly searching, we decided to just grab a pen and a paper, and started designing from scratch. What we aim for is just a line of our favorite pieces that we can live in on a daily. The result is a line of footwear and accessories that are seasonless with reasonable pricing. Exactly what was lacking in the market before.</p>
+			                        <h2>The webstore</h2>
+			                        <p>Not only does ETQ aim to provide functionality in its footwear and accessories, but we also aim to implement an effortless and thoughtful online service for our customers.</p>
+<p>With the sole mindset of creating a new digital experience with smooth and easily understandable animation, ETQ makes online shopping so much faster with no thought needed.</p>
+
+			                    </div>
+			                </div>
+			            </aside>
+			        </section>
+
+					        	    </div>
+
+
+	    	</div></main>
 
 
 
@@ -36,4 +277,9 @@
 
 
 
-        </body></html>
+
+
+</body>
+
+
+		<!-- end of row -->
