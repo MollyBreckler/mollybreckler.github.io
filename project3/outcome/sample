@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FACEBOOK</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<style media="screen">
+
+
+
+
+    * {
+      box-sizing: border-box;
+  }
+
+  html {
+      display: block;
+  }
+
+  body {
+      font-family: arial;
+      font-size: 10px;
+      background-color: indianred;
+      color: white;
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      display: block;
+      margin: 8px;
+  }
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    font-size: 10px;
+    background-color: indianred;
+    color: white;
+}
+
+.card__layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card__container {
+    height: 200px;
+    position: relative;
+    flex: 0 0 16.6666%;
+    width: 200px;
+}
+
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    width: 100%;
+}
+.card .side__back {
+    background-color: indianred;
+    transform: rotateY(180deg);
+    color: white;
+}
+
+.card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+    display: inline-block;
+    height: 200px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-grow: 3;
+}
+
+.col {
+    flex: 0 0 16.66666%;
+
+
+        </style>
+      </head>
+      <body>
+
+
+
+
+
+
+
+
+    
+
+      <div class="contain">
+    <a href="reader2.html"><img class="pulse" src="assets/images/me_me.png" style="float:right"> </a>
+    </div>
+
+<div class="shit">
+  boobs
+</div>
+
+
+      <div class="row">
+
+
+
+            <!-- Card layout-->
+            <div class="card__layout">
+
+            <!-- Card container #1-->
+            <div class="card__container">
+            	<!-- Card -->
+            	<div class="card">
+            		<!-- Front side -->
+            		<div class="side side__front">
+            			    <img src="assets/images/blackwhite/friends.jpg" alt="">
+            		</div>
+            		<!-- end front side  -->
+            		<div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                            <a href="http://www.smithsonianmag.com/arts-culture/what-defines-a-meme-1904778/"> WHAT DEFINES A MEME? </a>
+                            <br>
+                            <p><a href="http://www.smithsonianmag.com/">SMITHSONIAN MAGAZINE</a>
+                              <br>James Gleick</p>
+
+                            <br>
+                                  <p>
+                                      What lies at the heart of every living thing is not a fire, not warm breath, not a ‘spark of life.’ It is information, words, instructions,” <a href="https://richarddawkins.net/">Richard Dawkins</a> declared in 1986. Already one of the world’s foremost evolutionary biologists, he had caught the spirit of a new age. The cells of an organism are nodes in a richly interwoven communications network, transmitting and receiving, coding and decoding. Evolution itself embodies an ongoing exchange of information between organism and environment. “If you want to understand life,” Dawkins wrote, “don’t think about vibrant, throbbing gels and oozes, think about information technology.”
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+            		</div>
+            		<!-- end back side  -->
+            	</div>
+            	<!-- end card  -->
+            </div>
+            <!-- end card container #1  -->
+
+            <!-- Card container #2 -->
+            <div class="card__container">
+            	<!-- Card -->
+            	<div class="card">
+            		<!-- Front side -->
+            		<div class="side side__front">
+            			    <img src="assets/images/blackwhite/beast.jpg" alt="">
+            		</div>
+            		<!-- end front side  -->
+            		<div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                              <a href="http://www.smithsonianmag.com/arts-culture/what-defines-a-meme-1904778/"> WHAT DEFINES A MEME? </a>
+                            <br>
+                        <p>
+                        We have become surrounded by information technology; our furniture includes iPods and plasma displays, and our skills include texting and Googling. But our capacity to understand the role of information has been sorely taxed. “TMI,” we say. Stand back, however, and the past does come back into focus.
+                      </p>
+                      <p>
+                        The rise of information theory aided and abetted a new view of life. The genetic code—no longer a mere metaphor—was being deciphered. Scientists spoke grandly of the biosphere: an entity composed of all the earth’s life-forms, teeming with information, replicating and evolving. And biologists, having absorbed the methods and vocabulary of communications science, went further to make their own contributions to the understanding of information itself.
+
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+            		</div>
+            		<!-- end back side  -->
+            	</div>
+            	<!-- end card  -->
+            </div>
+            <!-- end card container #2  -->
+
+            <!-- Card container #3-->
+            <div class="card__container">
+            	<!-- Card -->
+            	<div class="card">
+            		<!-- Front side -->
+            		<div class="side side__front">
+            			    <img src="assets/images/blackwhite/cattube.jpg" alt="">
+            		</div>
+            		<!-- end front side  -->
+            		<div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                              <a href="http://www.smithsonianmag.com/arts-culture/what-defines-a-meme-1904778/"> WHAT DEFINES A MEME? </a>
+                            <br>
+                                    <p>
+                                      Jacques Monod, the Parisian biologist who shared a Nobel Prize in 1965 for working out the role of messenger RNA in the transfer of genetic information, proposed an analogy: just as the biosphere stands above the world of nonliving matter, so an “abstract kingdom” rises above the biosphere. The denizens of this kingdom? Ideas.
+                                      <br>
+                                      <br>
+                                      “<em>Ideas have retained some of the properties of organisms,” </em>he wrote. <em>“Like them, they tend to perpetuate their structure and to breed; they too can fuse, recombine, segregate their content; indeed they too can evolve, and in this evolution selection must surely play an important role.</em>”
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+            		</div>
+            		<!-- end back side  -->
+            	</div>
+            	<!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/croptop.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://www.smithsonianmag.com/arts-culture/what-defines-a-meme-1904778/"> WHAT DEFINES A MEME? </a>
+                        <p>
+                          Ideas have “spreading power,” he noted—“infectivity, as it were”—and some more than others. An example of an infectious idea might be a religious ideology that gains sway over a large group of people. The American neurophysiologist Roger Sperry had put forward a similar notion several years earlier, arguing that ideas are “just as real” as the neurons they inhabit. Ideas have power, he said:
+                        </p>
+                        <p>
+                          Ideas cause ideas and help evolve new ideas. They interact with each other and with other mental forces in the same brain, in neighboring brains, and thanks to global communication, in far distant, foreign brains. And they also interact with the external surroundings to produce in toto a burstwise advance in evolution that is far beyond anything to hit the evolutionary scene yet.
+                        </p>
+                        <p>
+                          Monod added,
+                          <br>
+                          “I shall not hazard a theory of the selection of ideas.” There was no need. Others were willing.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/justwow.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://www.smithsonianmag.com/arts-culture/what-defines-a-meme-1904778/"> WHAT DEFINES A MEME? </a>
+
+                        <p>
+                          Dawkins made his own jump from the evolution of genes to the evolution of ideas. For him the starring role belongs to the replicator, and it scarcely matters whether replicators were made of nucleic acid. His rule is “All life evolves by the differential survival of replicating entities.” Wherever there is life, there must be replicators. Perhaps on other worlds replicators could arise in a silicon-based chemistry—or in no chemistry at all.
+                        </p>
+                          <p>
+                            What would it mean for a replicator to exist without chemistry? “I think that a new kind of replicator has recently emerged on this very planet,” Dawkins proclaimed near the end of his first book, The Selfish Gene, in 1976. “It is staring us in the face. It is still in its infancy, still drifting clumsily about in its primeval soup, but already it is achieving evolutionary change at a rate that leaves the old gene panting far behind.” That “soup” is human culture; the vector of transmission is language, and the spawning ground is the brain.
+                          </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/micdrop.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://www.smithsonianmag.com/arts-culture/what-defines-a-meme-1904778/"> WHAT DEFINES A MEME? </a>
+
+                          <p>For this bodiless replicator itself, Dawkins proposed a name. He called it the meme, and it became his most memorable invention, far more influential than his selfish genes or his later proselytizing against religiosity. “Memes propagate themselves in the meme pool by leaping from brain to brain via a process which, in the broad sense, can be called imitation,” he wrote. They compete with one another for limited resources: brain time or bandwidth. They compete most of all for attention. For example:</p>
+
+                          <p>  <em>Ideas.</em> Whether an idea arises uniquely or reappears many times, it may thrive in the meme pool or it may dwindle and vanish. The belief in God is an example Dawkins offers—an ancient idea, replicating itself not just in words but in music and art. The belief that Earth orbits the Sun is no less a meme, competing with others for survival. (Truth may be a helpful quality for a meme, but it is only one among many.)</p>
+
+                    <p>
+                      <em>Tunes.</em> This tune has spread for centuries across several continents.
+                    </p>
+
+
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/ninnow.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+
+                        <p>
+                          <em>
+                            This essay focuses on the internet-meme as it is commonly understood- bearing a fairly rigid formal structure of appropriated imagery rooted in humor or absurdity as a method of cultural transmission and ultimately, cultural survival.
+                          </em>
+                        </p>
+
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/obamasuit.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                        A memetic structure is any cultural institution, space, or community in which cultural products and communication survive based on Darwinian principles, similar to that of genetics. Memes adapt, evolve, and replicate based on their strength relative to the environment they exist within. A memetic structure can be a physical space like a shopping mall or a school campus but more recently, popular culture has defined memetic structures predominantly as virtual spaces- none more infamously than the website 4chan, and in particular, its popular /b/ image board. But as the internet becomes an increasingly political entity, in the advent of the Pirate Party, Wikileaks, and Anonymous, what happens to the content of these memetic structures?
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/oldpep.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                        What role might memetics play in this radicalization of online space? The internet has always been a place for political action in small subsets and factions, but lately the “popular internet” is being retooled for political and ideological discourse by using highly accessible contemporary systems of online communication (Twitter, Facebook, Youtube). If we look at the most famous meme pool on the internet, 4chan- we now find a growing militarization and politicization of this structure; the internet-meme as a political weapon.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/pepspray.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                          Generally, websites like 4chan have held a fairly benevolent role in popular culture. We see them as a kind of factory for bizarre trends, photoshopped images, and various other in-jokes unique to the vernacular of the web. But most of the memes that arise from this website act on or adapt previously held tropes and stereotypes within other areas of popular culture. However, as our cultural dialogue intermingles with political discourse and activism, so do our cultural products. Political activism is often relegated to a specific subset of people as a means of marginalizing dissent and keeping a movement from becoming relatable to the general public. But political discourse in the meme pool allows dissent to go viral, making it accessible to a broad audience. The mere existence of this kind of structure is an encouraging circumstance. The transmutations that happen within these spaces  lack any substantial form of hierarchy. Moderation is not imposed, it happens in generations as content is subject only to the scrutiny of populism.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/owl.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                          This structure in itself is reminiscent of prefigurative politics[1]; it is a “temporary autonomous zone”, a term coined by anarchist philosopher Hakim Bey, described as an ephemeral utopia site which eludes traditional dynamics of law and hierarchy. Like Bey’s idea of a temporary autonomous zone, 4chan has no imposing will (short of rules against child pornography) and participants act without regulation or dictation from a command-hierarchy. It is unlikely that there was such a precise ideological motivation behind the creation of 4chan, rather this is an evolving potential that it holds in a broader, highly politicized meme pool.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/snowman.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                          We find proof of this in the adaptation of traditional internet-meme formats to explore political consciousness- conveying a broad group position on an ideological or political topic. The most apt (and most timely) example of this phenomenon is “pepper spray cop”. This meme stems from a photograph circulated of Lieutenant John Pike, a UC Davis police officer casually pepper-spraying a group of protestors. The subsequent memetic exchange involved Lt. Pike photoshopped into iconic photographs and paintings, casually pepper-spraying the subject of the images.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/blackwhite/toucan.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                        Though this meme is primarily intended to be humorous, it also serves some subtle political functions. Most obviously, it reduces the officer’s actions to absurdity as an indirect reprimand on authority gone unchecked. It offers up a kind of lasting stigma in lieu of appropriate institutional punishment. Another byproduct of this meme is the transmission of a political dialogue through media that would otherwise not allow for it. If one person, motivated politically shares a “pepper spray cop” image with another person who has no political motivation- this second person might still share the image for comedic effect.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/eel.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                          This kind of encryption allows for continued potency of a political message despite the fact that viewers may be sharing it for a myriad of different reasons.  Though this is a more common circumstance of political action within the meme pool, in its current state, it is not the most effective. But as political engagement coincides more and more with internet culture, memes that bear an ideological motive will require less cryptography to have their message travel and subsequently, will become more potent and useful over time. Just as the most ardent watchdog of police and military force is now viral video- the same principle might hold true for the replication and transmutation of political discourse- populism will find its root in a decentralized form of memetic exchange. A public voice can be found in this kind of humorous dialogue- and in many ways, it might carry a more immediate reaction than any of its institutional alternatives.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/stahp.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                          <a href="http://pooool.info/u-mad-bro-direct-action-in-the-meme-pool/?key=22206"> U MAD BRO? </a>
+                        <p>
+                          The popular internet-meme is a vessel with any number of purposes, and by definition, accessible enough to engage a wide variety of audiences. This alone is not enough to curry any kind of substantive political or social change, but it sets up a structure that allows for immediate input and dialogue on matters normally outside the reach of an empowered public- it offers the chance for political commentary to transfer to political progress. In organizing ideas and dialogues in this method, we allow for a more open approach to social change and lay out a framework with which we might potentially shape cultural nuances through the web. The tools are accessible, and the content survives based on merit and relevancy. There is an ever-broadening arsenal of political engagement but few methods of immediate popular commentary permeate through our culture as effortlessly as the internet meme.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/grill.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+
+
+                          <a href="https://en.wikipedia.org/wiki/List_of_Internet_phenomena">EARLY INTERNET MEMES</a>
+                          <p>
+  In 1982 Scott E. Fahlman proposed a solution to a problem he and other users
+  were experiencing when communicating via the Internet. Members who participated
+  on the bulletin-board system at Carnegie Mellon would on occasion
+  descend into “fame wars”—long threads of communication that are hostile
+  or openly aggressive to other users. Fahlman believed that many of these
+  disagreements arose out of misinterpreted humor. His solution to this problem
+  was to add a specifc marker to the end of any message that was a joke.
+  That marker was :-). I am going to assume that anyone reading this has seen
+  this “emoticon” and understands that if rotated ninety degrees clockwise, the
+  colon, hyphen, and close-parenthesis resemble a smiling face, a symbol lifed
+  from pre-Internet time. Tis practice of contextualizing one’s written messages
+  with an emoticon to indicate emotional intent has become widespread. Today
+  there are countless other pseudopictograms of expressions and objects which
+  are regularly added to typed communication. Emoticons are a meme.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/dick.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <p>
+                          To leverage my framework, the manifestation of an emoticon is whatever
+  combination of typed characters is employed as pseudopictogram. These can
+  be in any medium—handwritten or printed on paper, displayed on a screen,
+  any form capable of representing glyphs. The behavior is the act of constructing
+  such an emoticon to contribute emotional meaning to a text. The ideal is
+  that small combinations of recognizable glyphs represent the intent or emotional
+  state of the person transmitting them.
+  </p>
+  <p>
+  If we analyze the emoticon meme from a genetic point of view which
+  values survival and defnes success through continued replication, it proves
+  itself remarkably well situated. Emoticons can be very quickly used. Emoticons
+  are easy to experiment with. The tools for making emoticons are
+  included on every device we use to type. Te primary glyphs used for many
+  of the emoticons are glyphs used less ofen than the upper- and lower-case
+  alphabets. Emoticons reference a previously existing source of meaning
+  (human facial expressions) and therefore can be easily interpreted upon frst
+  encounter. More than just re-creating face-to-face meaning in textual communication,
+  emoticons also add the possibility of a new level of meaning—a
+  level impossible without them.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/emu.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <p>
+                          If all these factors were not true, perhaps emoticons would see less use. If
+  keyboards full of punctuation were not already spread across the landscape,
+  or if human facial expressions were not a cultural constant, maybe emoticons
+  would disappear or be relegated to obscurity. As it stands, though, emoticons not only pervade both online and ofine communication but have also
+  received signifcant formal support on many platforms.
+  </p>
+  <p>
+  Emoticons come from the Internet’s childhood, when bulletin boards
+  and e-mails accounted for a bulk of the activity online. Another early meme
+  came from its adolescence—1998, afer the widespread adoption of the World
+  Wide Web and during the heyday of GeoCities. Deidre LaCarte, who was a
+  Canadian art student at the time, made a GeoCities-hosted website as part of
+  a contest with a friend to see who could generate the most online traffic. The
+  website she created, popularly known as “<a href="http://www.hamsterdance.org/hamsterdance/">Hamster Dance</a>,” consisted of row
+  upon row of animated gifs, each one depicting a hamster dancing, all set to
+  a distorted nine-second audio loop. As of January 1999 the site had amassed
+  eight hundred views, total. Once 1999 began, however, without warning or
+  clear cause, the site began to log as many as ffeen thousand views a day.11
+  The comparison of these two early memes, Hamster Dance and emoticons,
+  provides an opportunity to expand and clarify some of the vocabulary I use
+  to discuss memes and to make two important distinctions.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/strawberry.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <p>
+                          Emoticons are a meme that serve a number of functions in the transmission
+  of information. Tey can be used to frame content as positive or negative,
+  serious or joking, or any number of other things. Hamster Dance essentially
+  serves a single function: to entertain. Tis diference in function infuences the
+  primary modes of access for each of these memes. For the emoticon meme the
+  behavior is to construct any number of emotional glyphs in any number of settings,
+  while for the Hamster Dance meme the behavior is only a single thing:
+  have people (themselves or others) view the Hamster Dance web page. Te
+  Hamster Dance page is a singular thing, a spectacle. It gains infuence through
+  its surprising centralization. It is a piece of content that seems unsuited given
+  more traditional models of assessment of organizing people around a central
+  location, but yet, that is precisely the function it serves.
+  Emoticons gain infuence in exactly the opposite way. Tere was an original,
+  single emoticon typed in 1982, but other emoticons do not drive people
+  toward that single iteration. Te emoticon has gained infuence not by
+  being surprisingly centralized but by being surprisingly distributed. Hamster
+  Dance is big like Mt. Rushmore. Emoticons are big like McDonald’s. Tis
+  frst distinction, then, is that the infuence gained by memes can be both centralized
+  and distributed.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/bail.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <p>
+                          The second distinction is closely related to the first. Just as Hamster Dance
+  is characterized by many-in-one-location, and emoticons are characterized
+  by individuals-in-many-locations, the two also differ in the nature of
+  the behavior they replicate. Many more people have used an emoticon, or
+  concocted their own, than have seen the very frst emoticon from 1982. In
+  contrast, many more people have seen the original Hamster Dance site than
+  have created their own Hamster Dance site. It is tempting, then, to say that
+  this diference implies two categories of memetic behavior: use and view.
+  It is more useful, though, to treat both of these behaviors as characteristics
+  present in varying degrees for any given meme. These two behaviors connect
+  directly to the previously mentioned states of replicable and malleable. A
+  piece of media’s being replicable makes it easier for that media to gain infuence
+  through views. A piece of media’s being malleable makes it easier for
+  that media to gain infuence through use. Engagement with a meme, then,
+  takes the form of either use or viewing or, more in keeping with the terms of
+  malleable and replicable, of transformation or transmission.
+                        </p>
+                        <p>These distinctions help to account for the variety of phenomena popularly
+  identifed as Internet memes. Working from Dawkins’s initial conception,
+  the term “meme” can mean almost anything. By limiting the scope of what
+  is meant by “Internet meme,” the goal is not to create a basis for invalidating
+  the widespread use of the term but, rather, to provide an inclusive method
+  for accounting for and relating the various phenomena labeled as such.</p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/windoge.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <br>
+                        <br>
+  <em>  Current Internet Memes</em>
+                        <p>
+
+    All memes (offline and on) are capable of existing in layers. For instance,
+    consider language. The meme of language is communication through
+    speech. There are, however, multiple languages. Each individual language is
+    a meme nested within the larger language meme. Additionally, within each
+    individual language there are even more submemes: dialects, slang, jargon.
+    Internet memes follow the same structure. One very common, rather
+    large meme is the image macro. An image macro is a set of stylistic rules for
+    adding text to images. Some image macros involve adding the same text to
+    various images, and others involve adding diferent text to a common image.
+    Just like emoticons, which exist in an environment well suited to supporting
+    their survival, image macros are able to thrive online because the sofware
+    necessary for their creation and distribution is readily available.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/stahp.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <p>
+                          There are countless submemes within the image macro meme, such as
+      LOLcats, FAIL, demotivators. I am going to focus on just one: Advice Dog.
+      Te trope of this meme is that Advice Dog, a friendly looking dog at the center
+      of a rainbow-colored background, is ofering the viewer whatever advice
+      is contained in the text above and below his head. The formula is simple:
+    </p>
+
+    <ol type="1">
+      <li> Image of dog in center of rainbow</li>
+      <li> First line of advice</li>
+      <li> Second line of advice (usually a punch line)</li>
+    </ol>
+      <p>
+      Iterations of the Advice Dog meme vary not only in the specifc text they
+      use to communicate humor but also in the type of humor communicated.
+      When Advice Dog gives someone advice, genuine good advice, it can be
+      humorous simply by virtue of being attached to a bright background and
+      smiling dog. Once it is established that the explicit function of Advice Dog is
+      to give advice, though, having him give bad or unexpected advice is ironic.
+      The text can also be transgressive, giving advice that is intentionally ofensive
+      or absurd, accompanied by text that is not advice at all.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/cookie.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <p>
+                          In addition to having Advice Dog ofer various kinds of advice, one can
+    also have other fgures deliver other kinds of messages. These are Advice
+    Dog–like variants. Whether a “genuine” Advice Dog iteration or a simply an
+    Advice Dog–like variant, all of these are contained within the larger Advice
+    Dog meme. The manifestations are the individual images, among which
+    numerous replicated elements are obvious. The style of the background, the
+    square format of the image, the central placement of a cropped fgure—all
+    of these remain constant (with consistent variation) from image to image.
+    The behavior of the meme is a varied set of practices. Viewing and linking
+    to various Advice Dog manifestations is part of the meme, as is saving and
+    reposting the same. Creating original iterations with new text is part of the
+    meme, as is creating or contributing to any of the Advice Dog–like variants
+    in the same manner.
+  </p>
+  <p>
+    The ideal of the Advice Dog meme is harder to describe. The meaning
+    conveyed by any single Advice Dog macro can vary wildly. Some have ironic
+    meanings, while others have aggressive or ofensive meanings. The subject
+    can be a dog that gives advice or a child that celebrates success. So we can
+    say that for Advice Dog, the ideal of the meme is not always replicated from
+    instance to instance. With no qualities recognizable from iteration to iteration,
+    it would seem there is no justifcation for linking them together as part
+    of the same meme. However, what is replicated from instance to instance
+    is the set of formal characteristics. We are able to identify each instance as
+    part of the larger Advice Dog meme because of the similarities in form and
+    regardless of the diferences in meaning.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+            <!-- Card container #3-->
+            <div class="card__container">
+              <!-- Card -->
+              <div class="card">
+                <!-- Front side -->
+                <div class="side side__front">
+                      <img src="assets/images/werkdoge.jpg" alt="">
+                </div>
+                <!-- end front side  -->
+                <div class="side side__back">
+                  <div class="col">
+                    <div class="content">
+                      <div class="text">
+                          <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+                        <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
+                        <br>
+   <em>  Attribution</em>
+
+                        <p>
+                      The identifcation of memes relies on the identifcation of replications. One
+                      of the most common replicated elements that sets memes of the unrestricted
+                      web apart from memes of the restricted web is attribution. Attribution is
+                      the identifcation of an author for a piece of media. Attribution is central
+                      to much of the restricted web: YouTube is host to numerous copyright battles,
+                      fueled by rights holders’ desire to derive worth from media attributed
+                      to them. Wikipedia encourages submissions from anyone but meticulously
+                      tracks participation and only allows images to be uploaded by their license
+                      holder. Creative Commons ofers numerous alternative licenses for content
+                      creators, but attribution is common to every one.
+                    </p>
+                    <p>
+                      It is clear that many of the popular platforms of the Internet preserve and
+                      extend a historical prioritizing of attribution and authorship. Foucault, in his
+                      essay “What Is an Author?” writes that the author’s name “performs a certain
+                      role with regard to narrative discourse, assuring a classifcatory function.
+                      Such a name permits one to group together a certain number of texts,
+                      defne them, diferentiate them from and contrast them to others. In addition,
+                      it establishes a relationship between the texts.” Foucault’s concept of
+                      the “author function” is therefore similar in function to modern metadata.
+                      Te author’s name serves to classify and group together separate works,
+                      much in the same way tags and keywords allow distributed digital media to
+                      be searched and sorted. The Internet is a system flled with an incalculable
+                      amount of data. The question of where to fnd a piece of media has become
+                      just as relevant as the question of how to produce a piece of media. Attribution
+                      supports this model and fts within the modern practice of prioritizing
+                      metadata. Metadata is a meme. It is a meme that existed well before the
+                      Internet but that has, like other memes introduced to the Internet, achieved
+                      an accelerated rate of growth and change.
+                        </p>
+                      </div>
+                        <br>
+                        <br>
+                                   ___________________________
+
+                        <br>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end back side  -->
+              </div>
+              <!-- end card  -->
+            </div>
+            <!-- end card container #3  -->
+
+
+
+
+
+
+
+
+
+            </div>
+            <!-- end card layout  -->
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+</body></html>
