@@ -111,7 +111,7 @@ body {
 
 
 
-    
+
 
       <div class="contain">
     <a href="reader2.html"><img class="pulse" src="assets/images/me_me.png" style="float:right"> </a>
@@ -1304,3 +1304,28 @@ body {
 
 
 </body></html>
+
+
+<br>
+<br>
+<Br>
+    <div id="js-cursor" class="Cursor js-mouse-down" style="top: 45px; left: 861px; display: block">
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/83/e0/7a/83e07a20070b861bfd88a3933cedf71f.jpg" class="C__up" alt="">
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/83/e0/7a/83e07a20070b861bfd88a3933cedf71f.jpg" class="C__down" alt="">
+</div>
+
+
+<div class="musicplayer"> <audio controls="" style="width:80px; "><source src="assets/images/music.mp3" type="audio/mpeg"></audio></div>
+
+
+<div class="audio"> <div class="musicplayer">
+<audio controls="" style="width:80px; "><source src="assets/images/music.mp3" type="audio/mpeg"></audio>
+</div> </div>
+
+
+<audio controls="controls" autoplay>
+
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<embed src="assets/images/music.mp3" autostart="false" id="musicmp3" enablejavascript="yes">
