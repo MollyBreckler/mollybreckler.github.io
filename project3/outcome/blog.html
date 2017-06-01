@@ -9,66 +9,44 @@
   box-sizing:border-box;
 }
 
-body
- {
-  background: red; /* For browsers that do not support gradients */
-  background: vertical-gradient(to right, white , pink); /* Standard syntax */
+
+div.container {
+width: 100%;
+border: 0px solid lightpink;
+}
+
+header, footer {
+padding: 1px;
+color: white;
+background-color: lightpink;
+clear: left;
+text-align: center;
+border-top:1px solid hotpink;
+border-bottom:1px solid hotpink;
 }
 
 
-.row1{
-  display:flex;
-  flex-wrap:wrap;
-}
-
-.col{
-  flex:0 0 33.333%;
-  background-color:white;
-
-}
-
-
-.col__2of3{
-  flex: 0 0 66.666%;
-}
 
 .content{
   background-color: white;
   margin:10px;
-   padding: 10px;
-
+   padding: 10px white;
 		 display: inline-block;
 		 width: 400px;
-		 border: 5px black solid;
+		 border: 5px lightpink solid;
 		 vertical-align: top;
 		 font-family: arial;
 		 font-size: 20px;
-		 color: black;
+		 color: pink;
 
 	 }
-
-}
-
-.title{
-  flex:1 1;
-  padding-left:200px;
-  font-size:100px;
-	font-family: arial;
-	color: hotpink;
-}
 
 .content img{
   width:100%
 }
 
-.nav a{
-  flex: 1 1;
-  padding: 10px;
-  text-align: center;
-  color: lightpink;
-  text-decoration: none;
-}
-.row {
+
+.row5 {
   display:flex;
   flex-wrap:wrap;
   border-top:1px solid lightpink;
@@ -78,9 +56,6 @@ body
 	color: white;
 }
 
-.col__1of3 {
-  flex:0 0 33.33%;
-}
 
 .content1 {
   background-color: lightpink;
@@ -99,29 +74,43 @@ div {
 body{
 	background-color: white;
 }
-div {
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+		font-family: arial;
+		font-size: 12px;
+		color: lightpink;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
 }
-div.container {
-width: 100%;
-border: 0px solid lightpink;
+
+.desc {
+    padding: 15px;
+    text-align: center;
 }
 
-header, footer {
-padding: 1px;
-color: white;
-background-color: lightpink;
-clear: left;
-text-align: center;
-border-top:1px solid hotpink;
-border-bottom:1px solid hotpink;
-}
+body {
 
+	cursor: url('http://pix.iemoji.com/lg33/0581.png'), default;
+}
 			</style>
 		</head>
 		<body>
 			<div class="container"> <header>
-						<div class="row">
+						<div class="row5">
 <BR>
 				&nbsp;&nbsp;FREE SHIPPING ON ALL ORDERS OVER $99 | FREE RETURNS ON ALL ORDERS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								</header></div></div>
@@ -130,23 +119,45 @@ border-bottom:1px solid hotpink;
 				<br>
 				<br>
 
-						<a href="home.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/house-building.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="about.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/black-question-mark-ornament.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="blog.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/camera.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="trends.html"><img src="http://www.charlestoncrafted.com/wp-content/uploads/2014/10/cha-cha-dancer.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="store.html"><img src="https://emojipedia-us.s3.amazonaws.com/cache/fd/14/fd141f947601eaa12f83d94d80c31a78.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="buynow.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/money-mouth-face.png" alt="" width="4%" height="4%"></div></a>
 
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-									<a href="facebook.html"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-5/128/Facebook.png" alt="" width="2%" height="2%"></div></a>
-									&nbsp;
-												<a href="snapchat.html"><img src="https://cdn-img.easyicon.net/png/11265/1126551.gif" alt="" width="2%" height="2%"></div></a>
-			</center>
+				<div class="dropdown">
+					<a href="home.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/house-building.png" alt="" width="50" height="50"></a>
+				<div class="dropdown-content"><div class="desc">Home</div>
+						</div>
+						</div>
+
+						<div class="dropdown">
+							<a href="about.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/black-question-mark-ornament.png" alt="" width="50" height="50"></a>
+						<div class="dropdown-content"><div class="desc">About</div>
+								</div>
+								</div>
+
+								<div class="dropdown">
+									<a href="blog.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/camera.png" alt="" width="50" height="50"></a>
+								<div class="dropdown-content"><div class="desc">Blog</div>
+										</div>
+										</div>
+
+										<div class="dropdown">
+											<a href="trends.html"><img src="http://www.charlestoncrafted.com/wp-content/uploads/2014/10/cha-cha-dancer.png" alt="" width="50" height="50"></a>
+										<div class="dropdown-content"><div class="desc">Trends</div>
+												</div>
+												</div>
+
+												<div class="dropdown">
+													<a href="store.html"><img src="https://emojipedia-us.s3.amazonaws.com/cache/fd/14/fd141f947601eaa12f83d94d80c31a78.png" alt="" width="50" height="50"></a>
+												<div class="dropdown-content"><div class="desc">Store</div>
+														</div>
+														</div>
+
+														<div class="dropdown">
+															<a href="buynow.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/money-mouth-face.png" alt="" width="50" height="50"></a>
+														<div class="dropdown-content"><div class="desc">Buy Now</div>
+																</div>
+																</div>
+
+
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </center>
 
 
 

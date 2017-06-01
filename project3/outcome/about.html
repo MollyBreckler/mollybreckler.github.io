@@ -108,7 +108,62 @@ border-bottom:1px solid hotpink;
 	width: 800px;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+		font-family: arial;
+		font-size: 12px;
+		color: lightpink;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.birthday__image {
+    bottom: 500px;
+    left: 100px;
+}
+
+.rotate {
+    position: fixed;
+    visibility: hidden;
+    transform: scaleX(0)rotate(0deg);
+    pointer-events: none;
+    transition: all 2s;
+}
+
+
+element.style {
+}
+
+.rollover:hover {
+    text-decoration: line-through;
+		color: yellow;
+}
+
+.rollover {
+    color: lightpink;
+}
+
+body {
+
+	cursor: url('http://pix.iemoji.com/lg33/0581.png'), default;
+}
 </style>
 
 
@@ -123,23 +178,47 @@ border-bottom:1px solid hotpink;
 	<BR>
 				&nbsp;&nbsp;FREE SHIPPING ON ALL ORDERS OVER $99 | FREE RETURNS ON ALL ORDERS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								</header></div></div>
-
-
 			<center>
-				<br>
-				<br>
+				<br><br>
 
-						<a href="home.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/house-building.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="about.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/black-question-mark-ornament.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="blog.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/camera.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="trends.html"><img src="http://www.charlestoncrafted.com/wp-content/uploads/2014/10/cha-cha-dancer.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="store.html"><img src="https://emojipedia-us.s3.amazonaws.com/cache/fd/14/fd141f947601eaa12f83d94d80c31a78.png" alt="" width="4%" height="4%"></div></a>
-			&nbsp;
-						<a href="buynow.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/money-mouth-face.png" alt="" width="4%" height="4%"></div></a>
+				<div class="dropdown">
+  				<a href="home.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/house-building.png" alt="" width="50" height="50"></a>
+  			<div class="dropdown-content"><div class="desc">Home</div>
+  					</div>
+						</div>
+
+						<div class="dropdown">
+		  				<a href="about.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/black-question-mark-ornament.png" alt="" width="50" height="50"></a>
+		  			<div class="dropdown-content"><div class="desc">About</div>
+		  					</div>
+								</div>
+
+								<div class="dropdown">
+				  				<a href="blog.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/camera.png" alt="" width="50" height="50"></a>
+				  			<div class="dropdown-content"><div class="desc">Blog</div>
+				  					</div>
+										</div>
+
+										<div class="dropdown">
+						  				<a href="trends.html"><img src="http://www.charlestoncrafted.com/wp-content/uploads/2014/10/cha-cha-dancer.png" alt="" width="50" height="50"></a>
+						  			<div class="dropdown-content"><div class="desc">Trends</div>
+						  					</div>
+												</div>
+
+												<div class="dropdown">
+								  				<a href="store.html"><img src="https://emojipedia-us.s3.amazonaws.com/cache/fd/14/fd141f947601eaa12f83d94d80c31a78.png" alt="" width="50" height="50"></a>
+								  			<div class="dropdown-content"><div class="desc">Store</div>
+								  					</div>
+														</div>
+
+														<div class="dropdown">
+										  				<a href="buynow.html"><img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/money-mouth-face.png" alt="" width="50" height="50"></a>
+										  			<div class="dropdown-content"><div class="desc">Buy Now</div>
+										  					</div>
+																</div>
+
+
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 			</center>
@@ -214,7 +293,7 @@ You’ll see the sun come shining through for you<br>
 							</p>
 							<br>
 							<p>Hardt argues that affect is perennially more powerful than the forces attempting to harness it, and it would be tempting to think of emoji in this context. But emoji remain a restricted, top-down language, controlled by the Unicode Consortium and the technical platforms that display them. Media theorist Laura Marks uses the term lame infinity to describe the phenomenon where digital technology seems infinite but is used to produce a dispiriting kind of sameness. Emoji, as “a perfectly normcore system of emotion: a taxonomy of feeling in a grid menu of ideograms” fit that description. While emoji offer creative expression within their own terms, they also may confine us to a type of communicative monoculture. What’s more, emoji also hold out the promise of emotional standardization in the service of data analysis: If a feeling can be summed up in a symbol, then theoretically that feeling can be more easily tracked, categorized, and counted.
-						
+
 							</p>
 							<br>
 
@@ -232,7 +311,7 @@ You’ll see the sun come shining through for you<br>
 						<Br>
 
 
-							<p>Emoji as Soft Control </p>
+							<p><span class="rollover birthday">Emoji as Soft Control </span></p>
 							<br>
 
 
@@ -246,7 +325,14 @@ You’ll see the sun come shining through for you<br>
 </div></div>
 
 
+
+
 <div class="container"> <footer>
 	<a href="facebook.html"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-5/128/Facebook.png" alt="" width="2%" height="2%"></a>
 
 				<a href="snapchat.html"><img src="https://cdn-img.easyicon.net/png/11265/1126551.gif" alt="" width="2%" height="2%"></a> </footer>
+
+
+<img class="rotate birthday__image" src="birthday.jpg" alt="">
+
+</html>
