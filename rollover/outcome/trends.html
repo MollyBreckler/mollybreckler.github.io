@@ -7,7 +7,74 @@
 		*{
 box-sizing:border-box;
 }
+/* Start here */
 
+
+
+.rollover {
+  color: hotpink;
+}
+
+.rollover:hover {
+  color: pink;
+}
+
+
+/*Two effects blur and rotate*/
+
+/* These are general classes */
+
+.blur {
+  position: fixed;
+  opacity: 0;
+  filter: blur(20px);
+  transition: all 2s;
+  pointer-events: none;
+}
+
+.blur.showme {
+  opacity: 1;
+  transition: all 2s;
+  filter: blur(0px);
+}
+
+
+.rotate {
+  position: fixed;
+  visibility: hidden;
+  transform: scale(0) rotate(0deg);
+  transition: all 2s;
+  pointer-events: none;
+  top: 0;
+  left: -50vw;
+}
+
+.rotate.showme {
+  transform: scale(1) rotate(360deg);
+  display: block;
+  transition: all 2s;
+  visibility: visible;
+  top: 0px;
+  left: 50vw;
+}
+
+
+/* Image layout ie specific classes*/
+
+.oase__image {
+  top: 20px;
+  right: 100px;
+}
+
+.magazine__image {
+  top:0px;
+  right:100px;
+}
+
+.landscape__image {
+  top: 20px;
+  right: 100px;
+}
 
 		    .text1{
 		      font-size: 55px;
@@ -149,6 +216,17 @@ box-sizing:border-box;
 		<br>
 		<Br>
 				</center>
+				<div class="main">
+				  <h1>  OASE JOURNAL NO. 93</h1>
+				  <p>The 93th issue of <span class="rollover oase">OASE</span> examines the recent attention that has been paid to the relationship between landscape and urban planning. This issue explores historical and contemporary attempts at defining landscape as a
+				    public project, as well as the new constellations of government, designer, and citizen that go along with this process. <span class="rollover oase">OASE 93</span> also discusses the media in which landscapes are depicted for a broad audience:television
+				    programmes, atlases, exhibitions, and cultural events.</p>
+
+				  <p>Just about all aspects of urban planning and architecture have been framed in recent years as landscape: housing, recreation, heritage, and water issues. Whereas the 1990s reflected a landscape of unbridled possibilities, today the focus is on redevelopment
+				    and sustainability. The social challenge incumbent on the landscape is great. Both a clear public project and economic support are lacking, and the government often refuses to take notice. These absences are filled by the small scale, and by forms
+				    of new ‘commons’. But what is <span class="rollover oase">landscape</span> without a public conversation about it? To get this conversation started, goes beyond the socio-historical consensus.</p>
+				</div>
+
 
 		<div class="margin1"> <div class="text1">
 		<h2>The Good, The Bad and The Ugly: Why Emojis Are Taking Over the World</h2> </div>
@@ -160,26 +238,26 @@ box-sizing:border-box;
 
 And no, it’s not a spoken language. It’s not Arabic, or Mandarin, it’s actually the language of Emojis – those little icons you can slip into messages.
 
-In fact, the language of Emojis is evolving faster than any other ancient form of communication, including hieroglyphics. “As a visual language emoji has already far eclipsed hieroglyphics, its ancient Egyptian precursor which took centuries to develop,” says Professor Vyv Evans.</p>
+In fact, the language of Emojis is <span class="rollover oase">evolving faster than any other ancient form of communication,</span> including hieroglyphics. “As a visual language emoji has already far eclipsed hieroglyphics, its ancient Egyptian precursor which took centuries to develop,” says Professor Vyv Evans.</p>
 
-<p>It might come as a surprise (cue shocked emoji face here), but a whopping 72% of UK citizens aged between 18 and 25 find it easier to communicate emotions using emojis rather than text.
+<p>It might come as a surprise (cue shocked emoji face here), but a whopping 72% of UK citizens <span class="rollover oase">aged between 18 and 25 find it easier to communicate emotions using emojis rather than text.</span>
 
-But it’s not just the younger generation that are replacing icons with words: Andy Murray documented his wedding day by Tweeting about it totally in emojis and, more tellingly, the Oxford English Dictionary made Emoji the Word of the Year in 2015.</p>
+But it’s not just the <span class="rollover oase">younger generation </span>that are replacing icons with words: Andy Murray documented his wedding day by Tweeting about it totally in emojis and, more tellingly, the <span class="rollover oase">Oxford English Dictionary made Emoji the Word of the Year in 2015.</span></p>
 
-<p>This doesn’t take into account all the brands that have launched campaigns revolving around emojis, but we’ll talk about that in a bit.
+<p>This doesn’t take into account all the <span class="rollover oase">brands </span>that have launched campaigns revolving around emojis, but we’ll talk about that in a bit.
 
 For now, let’s take it back a few years to see where the excitement about a new, modern image-based language came from (because, let’s face it, it kind of seemed like it came out of nowhere, right?).</p>
 <br>
 <p><h3>What is An Emoji?</h3></p>
 <P>First things first, what does the word emoji actually mean?
 
-It’s directly translated from Japanese, where the “e” means “picture” and “moji” means “character”. Today, with the rise of global communication through the interconnected interwebs, emojis gives us the chance to connect with each other in a language we all understand.</p>
+It’s directly translated from Japanese, where the “e” means “picture” and “moji” means “character”. Today, with the <span class="rollover oase">rise of global communication </span>through the interconnected interwebs, emojis gives us the chance to connect with each other in a language we all understand.</p>
 <br>
 <p><h3>A Brief History of the Emoji</h3></p>
 
 <p>It might seem like the emoji popped up just a few years ago, and that’s because it did in its latest form.
 
-In fact, emojis as we know them today really blew up in 2012 when Apple released their iOS 6 model and owners suddenly found themselves with an entire keyboard of images at their fingertips. Their huge success meant they were then implemented on Instagram, Facebook, Twitter, and more, so that even more people could share and communicate using this new language.
+In fact, emojis as we know them today really <span class="rollover oase">blew up </span>in 2012 when Apple released their iOS 6 model and owners suddenly found themselves with an entire keyboard of images at their fingertips. Their huge success meant they were then implemented on Instagram, Facebook, Twitter, and more, so that even more people could share and communicate using this new language.
 
 Mental Floss have put together a great piece on the history of the emoji as part of their Big Questions series:</p>
 
@@ -189,7 +267,7 @@ And you’d be absolutely right for thinking that.</p>
 
 <p>Remember these from the days of MSN?
 
-In fact, emojis originally began as emoticons, which are essentially facial expressions made out of different types of punctuation – you know, the colon and a close bracket makes a ;}
+In fact, emojis originally began as emoticons, which are essentially facial expressions made out of different types of punctuation – you know, the colon and a close bracket makes a <span class="rollover oase"> ;}</span>
 
 This type of pictorial communication was the grandfather of emojis and actually dates back to 1881 when they were first published in Puck Magazine. Which, if your maths isn’t so quick, makes them more than 100 years old.</p>
 
@@ -200,7 +278,26 @@ This type of pictorial communication was the grandfather of emojis and actually 
 
 		  </body>
 
-		  </html>
+			<img class="rotate magazine__image" src="http://www.babelwad.com/wp-content/uploads/2017/05/IMG_3167.gif" alt=""/>
+			<img class="rotate magazine__image" src="https://rampages.us/austinround/wp-content/uploads/sites/9607/2015/10/hilary-clinton-emoji-tweet1.jpg" alt=""/>
+			<img class="rotate magazine__image" src="https://qph.ec.quoracdn.net/main-qimg-0a7b408b3ac12c9c7af83c7a704c071c" alt=""/>
+			<img class="rotate magazine__image" src="https://i.elitestatic.com/content/uploads/2017/05/08061427/kim-kardashian-return-tweet4.jpg" alt=""/>
+			<img class="rotate magazine__image"src="https://iosdownloads.com/wp-content/uploads/2016/08/Kimoji_logo.jpg" alt=""/>
+			<img class="rotate magazine__image" src="http://www.mtv.co.uk/sites/default/files/styles/vimn_image_embed/public/mtv_uk/articles/2016/12/22/butts_peach.jpeg?itok=2ThHsWTS" alt="" />
+			<img src="http://www.mtholyoke.edu/~nshah/fashioncrimes/New%20Folder/ishop.gif" alt="" />
+
+
+
+
+
+			<img class="blur oase__image" src="https://s-media-cache-ak0.pinimg.com/564x/ec/15/24/ec1524259ff6ec91a8364b9f2030455f.jpg" alt="">
+			<img class="rotate magazine__image" src="https://s-media-cache-ak0.pinimg.com/236x/9c/e3/9d/9ce39dfa256edd00dceb6153bfaba602.jpg" alt="">
+			<img class="blur landscape__image" src="https://www.asla.org/design/images/DesignProcess4/Voices_After.jpg" alt="">
+
+
+
+
+			</html>
 
 	<div class="container"> <footer>
 		<a href="facebook.html"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-5/128/Facebook.png" alt="" width="2%" height="2%"></a>

@@ -33,21 +33,3 @@ $(document).ready(function() {
             $('.landscape').mouseleave(function() {
               $('.landscape__image').removeClass('showme');
             });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  });
