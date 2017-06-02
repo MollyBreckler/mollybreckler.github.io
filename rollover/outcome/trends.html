@@ -3,6 +3,9 @@
 	<head>
 		<title>SNAPCHAT</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+   <script src="assets/js/main.js" charset="utf-8"></script>
+</script>
 		<style media="screen">
 		*{
 box-sizing:border-box;
@@ -19,11 +22,6 @@ box-sizing:border-box;
   color: pink;
 }
 
-
-/*Two effects blur and rotate*/
-
-/* These are general classes */
-
 .blur {
   position: fixed;
   opacity: 0;
@@ -36,44 +34,6 @@ box-sizing:border-box;
   opacity: 1;
   transition: all 2s;
   filter: blur(0px);
-}
-
-
-.rotate {
-  position: fixed;
-  visibility: hidden;
-  transform: scale(0) rotate(0deg);
-  transition: all 2s;
-  pointer-events: none;
-  top: 0;
-  left: -50vw;
-}
-
-.rotate.showme {
-  transform: scale(1) rotate(360deg);
-  display: block;
-  transition: all 2s;
-  visibility: visible;
-  top: 0px;
-  left: 50vw;
-}
-
-
-/* Image layout ie specific classes*/
-
-.oase__image {
-  top: 20px;
-  right: 100px;
-}
-
-.magazine__image {
-  top:0px;
-  right:100px;
-}
-
-.landscape__image {
-  top: 20px;
-  right: 100px;
 }
 
 		    .text1{
@@ -96,6 +56,12 @@ box-sizing:border-box;
 		      width: 900px;
 		    }
 
+				.margin2{
+		      margin-left: 0px;
+		      border-left: 0px solid;
+		      padding-left:80px;
+		      width: 570px;
+		    }
 				div.container {
 				width: 100%;
 				border: 0px solid lightpink;
@@ -153,6 +119,8 @@ box-sizing:border-box;
 		    padding: 15px;
 		    text-align: center;
 		}
+
+
 
 		body {
 
@@ -220,33 +188,35 @@ box-sizing:border-box;
 		<div class="margin1"> <div class="text1">
 		<h2>The Good, The Bad and The Ugly: Why Emojis Are Taking Over the World</h2> </div>
 		<br>
-
-		<div class="text">
+</div>
+		<div class="text"><div class="margin2">
 		<p>
+
+			<span class="rollover oase">OASE</span>
 		If the answer is many, you might just be fluent in the fastest growing language.
 
 And no, it’s not a spoken language. It’s not Arabic, or Mandarin, it’s actually the language of Emojis – those little icons you can slip into messages.
 
-In fact, the language of Emojis is <span class="rollover oase">evolving faster than any other ancient form of communication,</span> including hieroglyphics. “As a visual language emoji has already far eclipsed hieroglyphics, its ancient Egyptian precursor which took centuries to develop,” says Professor Vyv Evans.</p>
+In fact, the language of Emojis is <span class="rollover hilary">evolving faster than any other ancient form of communication,</span> including hieroglyphics. “As a visual language emoji has already far eclipsed hieroglyphics, its ancient Egyptian precursor which took centuries to develop,” says Professor Vyv Evans.</p>
 
-<p>It might come as a surprise (cue shocked emoji face here), but a whopping 72% of UK citizens <span class="rollover oase">aged between 18 and 25 find it easier to communicate emotions using emojis rather than text.</span>
+<p>It might come as a surprise (cue shocked emoji face here), but a whopping 72% of UK citizens <span class="rollover magazine">aged between 18 and 25 find it easier to communicate emotions using emojis rather than text.</span>
 
-But it’s not just the <span class="rollover oase">younger generation </span>that are replacing icons with words: Andy Murray documented his wedding day by Tweeting about it totally in emojis and, more tellingly, the <span class="rollover oase">Oxford English Dictionary made Emoji the Word of the Year in 2015.</span></p>
+But it’s not just the <span class="rollover article">younger generation </span>that are replacing icons with words: Andy Murray documented his wedding day by Tweeting about it totally in emojis and, more tellingly, the <span class="rollover landscape">Oxford English Dictionary made Emoji the Word of the Year in 2015.</span></p>
 
-<p>This doesn’t take into account all the <span class="rollover oase">brands </span>that have launched campaigns revolving around emojis, but we’ll talk about that in a bit.
+<p>This doesn’t take into account all the <span class="rollover landscape">brands </span>that have launched campaigns revolving around emojis, but we’ll talk about that in a bit.
 
 For now, let’s take it back a few years to see where the excitement about a new, modern image-based language came from (because, let’s face it, it kind of seemed like it came out of nowhere, right?).</p>
 <br>
 <p><h3>What is An Emoji?</h3></p>
 <P>First things first, what does the word emoji actually mean?
 
-It’s directly translated from Japanese, where the “e” means “picture” and “moji” means “character”. Today, with the <span class="rollover oase">rise of global communication </span>through the interconnected interwebs, emojis gives us the chance to connect with each other in a language we all understand.</p>
+It’s directly translated from Japanese, where the “e” means “picture” and “moji” means “character”. Today, with the <span class="rollover landscape">rise of global communication </span>through the interconnected interwebs, emojis gives us the chance to connect with each other in a language we all understand.</p>
 <br>
 <p><h3>A Brief History of the Emoji</h3></p>
 
 <p>It might seem like the emoji popped up just a few years ago, and that’s because it did in its latest form.
 
-In fact, emojis as we know them today really <span class="rollover oase">blew up </span>in 2012 when Apple released their iOS 6 model and owners suddenly found themselves with an entire keyboard of images at their fingertips. Their huge success meant they were then implemented on Instagram, Facebook, Twitter, and more, so that even more people could share and communicate using this new language.
+In fact, emojis as we know them today really <span class="rollover landscape">blew up </span>in 2012 when Apple released their iOS 6 model and owners suddenly found themselves with an entire keyboard of images at their fingertips. Their huge success meant they were then implemented on Instagram, Facebook, Twitter, and more, so that even more people could share and communicate using this new language.
 
 Mental Floss have put together a great piece on the history of the emoji as part of their Big Questions series:</p>
 
@@ -256,7 +226,7 @@ And you’d be absolutely right for thinking that.</p>
 
 <p>Remember these from the days of MSN?
 
-In fact, emojis originally began as emoticons, which are essentially facial expressions made out of different types of punctuation – you know, the colon and a close bracket makes a <span class="rollover oase"> ;}</span>
+In fact, emojis originally began as emoticons, which are essentially facial expressions made out of different types of punctuation – you know, the colon and a close bracket makes a <span class="rollover landscape"> ;}</span>
 
 This type of pictorial communication was the grandfather of emojis and actually dates back to 1881 when they were first published in Puck Magazine. Which, if your maths isn’t so quick, makes them more than 100 years old.</p>
 
@@ -265,26 +235,12 @@ This type of pictorial communication was the grandfather of emojis and actually 
 		<br>
 		<Br>
 
-		  </body>
-
-			<img class="rotate magazine__image" src="http://www.babelwad.com/wp-content/uploads/2017/05/IMG_3167.gif" alt=""/>
-			<img class="rotate magazine__image" src="https://rampages.us/austinround/wp-content/uploads/sites/9607/2015/10/hilary-clinton-emoji-tweet1.jpg" alt=""/>
-			<img class="rotate magazine__image" src="https://qph.ec.quoracdn.net/main-qimg-0a7b408b3ac12c9c7af83c7a704c071c" alt=""/>
-			<img class="rotate magazine__image" src="https://i.elitestatic.com/content/uploads/2017/05/08061427/kim-kardashian-return-tweet4.jpg" alt=""/>
-			<img class="rotate magazine__image"src="https://iosdownloads.com/wp-content/uploads/2016/08/Kimoji_logo.jpg" alt=""/>
-			<img class="rotate magazine__image" src="http://www.mtv.co.uk/sites/default/files/styles/vimn_image_embed/public/mtv_uk/articles/2016/12/22/butts_peach.jpeg?itok=2ThHsWTS" alt="" />
-			<img src="http://www.mtholyoke.edu/~nshah/fashioncrimes/New%20Folder/ishop.gif" alt="" />
-
-
-
 
 
 			<img class="blur oase__image" src="https://s-media-cache-ak0.pinimg.com/564x/ec/15/24/ec1524259ff6ec91a8364b9f2030455f.jpg" alt="">
-			<img class="rotate magazine__image" src="https://s-media-cache-ak0.pinimg.com/236x/9c/e3/9d/9ce39dfa256edd00dceb6153bfaba602.jpg" alt="">
-			<img class="blur landscape__image" src="https://www.asla.org/design/images/DesignProcess4/Voices_After.jpg" alt="">
 
 
-
+</body>
 
 			</html>
 

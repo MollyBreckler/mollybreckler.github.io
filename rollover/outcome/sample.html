@@ -3,118 +3,124 @@
 	<head>
 		<title>HOME</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+		<script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+   <script src="assets/js/main.js" charset="utf-8"></script>
+</script>
       <style media="screen">
-			*{
-  box-sizing:border-box;
-}
+			
+
+			/* Start here */
+
+			body {
+			  font-family: arial;
+			  font-size: 30px;
+			}
+
+			.main {
+			  width: 80%;
+			  margin: auto;
+			}
+
+			h1 {
+			  font-weight: normal;
+			  text-transform: uppercase;
+			  text-align: center;
+			  font-size: 30px;
+			}
+
+			.rollover {
+			  color: red;
+			}
+
+			.rollover:hover {
+			  color: blue;
+			}
 
 
-/* Start here */
+			/*Two effects blur and rotate*/
 
-body {
-  font-family: arial;
-  font-size: 30px;
-}
+			/* These are general classes */
 
-.main {
-  width: 80%;
-  margin: auto;
-}
+			.blur {
+			  position: fixed;
+			  opacity: 0;
+			  filter: blur(20px);
+			  transition: all 2s;
+			  pointer-events: none;
+			}
 
-h1 {
-  font-weight: normal;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 30px;
-}
-
-.rollover {
-  color: red;
-}
-
-.rollover:hover {
-  color: blue;
-}
+			.blur.showme {
+			  opacity: 1;
+			  transition: all 2s;
+			  filter: blur(0px);
+			}
 
 
-/*Two effects blur and rotate*/
+			.rotate {
+			  position: fixed;
+			  visibility: hidden;
+			  transform: scale(0) rotate(0deg);
+			  transition: all 2s;
+			  pointer-events: none;
+			  top: 0;
+			  left: -50vw;
+			}
 
-/* These are general classes */
-
-.blur {
-  position: fixed;
-  opacity: 0;
-  filter: blur(20px);
-  transition: all 2s;
-  pointer-events: none;
-}
-
-.blur.showme {
-  opacity: 1;
-  transition: all 2s;
-  filter: blur(0px);
-}
-
-
-.rotate {
-  position: fixed;
-  visibility: hidden;
-  transform: scale(0) rotate(0deg);
-  transition: all 2s;
-  pointer-events: none;
-  top: 0;
-  left: -50vw;
-}
-
-.rotate.showme {
-  transform: scale(1) rotate(360deg);
-  display: block;
-  transition: all 2s;
-  visibility: visible;
-  top: 0px;
-  left: 50vw;
-}
+			.rotate.showme {
+			  transform: scale(1) rotate(360deg);
+			  display: block;
+			  transition: all 2s;
+			  visibility: visible;
+			  top: 0px;
+			  left: 50vw;
+			}
 
 
-/* Image layout ie specific classes*/
+			/* Image layout ie specific classes*/
 
-.oase__image {
-  top: 20px;
-  right: 100px;
-}
+			.oase__image {
+			  top: 20px;
+			  right: 100px;
+			}
 
-.magazine__image {
-  top:0px;
-  right:100px;
-}
+			.magazine__image {
+			  top:0px;
+			  right:100px;
+			}
 
-.landscape__image {
-  top: 20px;
-  right: 100px;
-}
+			.landscape__image {
+			  top: 20px;
+			  right: 100px;
+			}
 
 </style>
 </head>
 <body>
 
+	<div class="main">
+	  <h1>  OASE JOURNAL NO. 93</h1>
+	  <p>The 93th issue of <span class="rollover oase">OASE</span> examines the recent attention that has been paid to the relationship between landscape and urban planning. This issue explores historical and contemporary attempts at defining landscape as a
+	    public project, as well as the new constellations of government, designer, and citizen that go along with this process. <span class="rollover magazine">OASE 93</span> also discusses the media in which landscapes are depicted for a broad audience:television
+	    programmes, atlases, exhibitions, and cultural events.</p>
 
+	  <p>Just about all aspects of urban planning and architecture have been framed in recent years as landscape: housing, recreation, heritage, and water issues. Whereas the 1990s reflected a landscape of unbridled possibilities, today the focus is on redevelopment
+	    and sustainability. The social challenge incumbent on the landscape is great. Both a clear public project and economic support are lacking, and the government often refuses to take notice. These absences are filled by the small scale, and by forms
+	    of new ‘commons’. But what is <span class="rollover landscape">landscape</span> without a public conversation about it? To get this conversation started, goes beyond the socio-historical consensus.</p>
+	</div>
 
-<div class="main">
-  <h1>  OASE JOURNAL NO. 93</h1>
-  <p>The 93th issue of <span class="rollover oase">OASE</span> examines the recent attention that has been paid to the relationship between landscape and urban planning. This issue explores historical and contemporary attempts at defining landscape as a
-    public project, as well as the new constellations of government, designer, and citizen that go along with this process. <span class="rollover magazine">OASE 93</span> also discusses the media in which landscapes are depicted for a broad audience:television
-    programmes, atlases, exhibitions, and cultural events.</p>
-
-  <p>Just about all aspects of urban planning and architecture have been framed in recent years as landscape: housing, recreation, heritage, and water issues. Whereas the 1990s reflected a landscape of unbridled possibilities, today the focus is on redevelopment
-    and sustainability. The social challenge incumbent on the landscape is great. Both a clear public project and economic support are lacking, and the government often refuses to take notice. These absences are filled by the small scale, and by forms
-    of new ‘commons’. But what is <span class="rollover landscape">landscape</span> without a public conversation about it? To get this conversation started, goes beyond the socio-historical consensus.</p>
-</div>
-
-<img class="blur oase__image" src="https://s-media-cache-ak0.pinimg.com/564x/ec/15/24/ec1524259ff6ec91a8364b9f2030455f.jpg" alt="">
-<img class="rotate magazine__image" src="https://s-media-cache-ak0.pinimg.com/236x/9c/e3/9d/9ce39dfa256edd00dceb6153bfaba602.jpg" alt="">
-<img class="blur landscape__image" src="https://www.asla.org/design/images/DesignProcess4/Voices_After.jpg" alt="">
+	<img class="blur oase__image" src="https://s-media-cache-ak0.pinimg.com/564x/ec/15/24/ec1524259ff6ec91a8364b9f2030455f.jpg" alt="">
+	<img class="rotate magazine__image" src="https://s-media-cache-ak0.pinimg.com/236x/9c/e3/9d/9ce39dfa256edd00dceb6153bfaba602.jpg" alt="">
+	<img class="blur landscape__image" src="https://www.asla.org/design/images/DesignProcess4/Voices_After.jpg" alt="">
 
 
 
-</body> </html>
+	<img class="rotate hilary__image" src="https://rampages.us/austinround/wp-content/uploads/sites/9607/2015/10/hilary-clinton-emoji-tweet1.jpg" alt="" width:"3%"; height:"3%";/>
+
+
+
+	<img class="rotate magazine__image" src="https://rampages.us/austinround/wp-content/uploads/sites/9607/2015/10/hilary-clinton-emoji-tweet1.jpg" alt=""/>
+	<img class="rotate article__image" src="https://qph.ec.quoracdn.net/main-qimg-0a7b408b3ac12c9c7af83c7a704c071c" alt=""/>
+	<img class="rotate landscape__image" src="https://i.elitestatic.com/content/uploads/2017/05/08061427/kim-kardashian-return-tweet4.jpg" alt=""/>
+	<img class="rotate landscape__image"src="https://iosdownloads.com/wp-content/uploads/2016/08/Kimoji_logo.jpg" alt=""/>
+	<img class="rotate landscape__image" src="http://www.mtv.co.uk/sites/default/files/styles/vimn_image_embed/public/mtv_uk/articles/2016/12/22/butts_peach.jpeg?itok=2ThHsWTS" alt="" />
+	<img src="http://www.mtholyoke.edu/~nshah/fashioncrimes/New%20Folder/ishop.gif" alt="" />
