@@ -4,134 +4,6 @@ box-sizing:border-box;
 }
 
 
-
-
-.row {
-display:flex;
-flex-wrap:wrap;
-border-top:1px solid lightpink;
-border-bottom:1px solid lightpink;
-font-size: 10px;
-font-family: arial;
-color: white;
-
-}
-
-.col__1of3 {
-flex:0 0 33.33%;
-}
-
-.content {
-background-color: lightpink;
-padding: 10px;
-margin: 10px;
-}
-
-.row{
-display:flex;
-flex-wrap:wrap;
-}
-
-
-.content{
-background-color: lightpink;
-margin:10px;
-padding: 10px;
-}
-
-.title{
-flex:1 1;
-padding-left:40px;
-font-size:40px;
-}
-
-.content img{
-width:100%
-}
-
-.nav a{
-flex: 1 1;
-padding: 10px;
-text-align: center;
-color: lightpink;
-text-decoration: none;
-width: 2000px;
-height: 20px;
-}
-
-
-
-a:link {
-color: yellow;
-text-decoration: none;
-}
-
-a:visited {
-color: pink;
-text-decoration: none;
-}
-
-a:hover {
-color: yellow;
-}
-
-a:active {
-color: yellow;
-text-decoration: none;
-}
-
-.firstlink{
-color: pink;
-}
-
-
-
-
-.fixed {
-position: fixed;
-margin-left: 340px;
-top: 180px;
-}
-
-
-
-
-.text {
-font-family: arial;
-font-size: 20pt;
-text-align: center;
-top: 375px;
-color: pink;
-}
-
-.tooltip {
-position: relative;
-display: inline-block;
-border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-visibility: hidden;
-width: 120px;
-background-color: lightpink;
-color: 	#FFFFFF;
-text-align: center;
-border-radius: 6px;
-padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-
 div.container {
 width: 100%;
 border: 0px solid lightpink;
@@ -146,7 +18,6 @@ text-align: center;
 border-top:1px solid hotpink;
 border-bottom:1px solid hotpink;
 }
-
 
 .dropdown {
 position: relative;
@@ -174,13 +45,182 @@ padding: 15px;
 text-align: center;
 }
 
+.row {
+display:flex;
+flex-wrap:wrap;
+border-top:1px solid lightpink;
+border-bottom:1px solid lightpink;
+font-size: 10px;
+font-family: arial;
+color: white;
+
+}
+
+.row{
+display:flex;
+flex-wrap:wrap;
+}
+
+
+.content{
+background-color: lightpink;
+margin:10px;
+padding: 10px;
+}
+
+.content img{
+width:100%
+}
+
+.nav a{
+flex: 1 1;
+padding: 10px;
+text-align: center;
+color: lightpink;
+text-decoration: none;
+width: 2000px;
+height: 20px;
+}
+
+a:link {
+color: yellow;
+text-decoration: none;
+}
+
+a:visited {
+color: pink;
+text-decoration: none;
+}
+
+a:hover {
+color: yellow;
+}
+
+a:active {
+color: yellow;
+text-decoration: none;
+}
+
+.firstlink{
+color: pink;
+}
+
+.fixed {
+position: fixed;
+margin-left: 340px;
+top: 180px;
+}
+
+.text {
+font-family: arial;
+font-size: 20pt;
+text-align: center;
+top: 375px;
+color: pink;
+}
+
+.fixed {
+position: fixed;
+margin-left: 340px;
+top: 180px;
+}
+
+.text1{
+font-size: 60px;
+font-family: arial;
+color: lightpink;
+}
+
+.text2{
+font-size: 16px;
+font-family: arial;
+color: pink;
+
+}
+
+.margin{
+margin-left: 0px;
+border-left: 0px solid;
+padding-left:120px;
+width: 800px;
+}
+
+element.style {
+}
+
+.rollover:hover {
+text-decoration: line-through;
+color: yellow;
+}
+
+.rollover {
+color: lightpink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
 
 cursor: url('http://pix.iemoji.com/lg33/0581.png'), default;
 }
 
 
-</style>
+
 
 
 </style>
