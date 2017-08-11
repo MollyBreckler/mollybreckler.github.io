@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+
+		<title>poster3</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<scrip type="text/javascript" src="jquery.js"></script>
+
+			<script type="text/javascript">
+			$(document).ready(function(){
+
+
+
+			});
+			</script>
+      <style media="screen">
+
+
+			* {
+			  box-sizing: border-box;
+			}
+
+
+			/* Start here */
+
+			body {
+			  background-color: peachpuff;
+			  font-family: arial;
+			  font-size: 30px;
+			}
+
+			.main {
+			  width: 80%;
+			  margin: auto;
+			}
+
+			.nav {
+			  position: fixed;
+			  top: 10px;
+			  right: 10px;
+			  z-index: 2;
+			  cursor: pointer;
+			}
+
+
+			/* Notice the position.. it's right:-50vw; that means its 50% off the screen, HIDDEN.  */
+
+			.menu {
+			  height: 100vh;
+			  width: 50vw;
+			  background-color: skyblue;
+			  position: fixed;
+			  right: -50vw;
+			  top: 0px;
+			  z-index: 1;
+			  transition: all 2s;
+			}
+
+
+			/* The added class showme makes the right 0. So it transitions from -50vw offscreen to right 0 on screen.  */
+
+			.menu.showme {
+			  right: 0;
+			  transition: all 2s;
+			}
+
+			.main {
+			  transition: all 2s;
+			  margin-top: -0px;
+			}
+
+			.main.moveleft {
+			  margin-top: -40vw;
+			  transition: all 2s;
+			}
+
+			.backtotop {
+			  position: fixed;
+			  bottom: 0px;
+			  left: 0px;
+			}
+
+
+
+</style>
+</head>
+<body>
+
+
+	<div class="nav">
+	  Menu
+	</div>
+
+	<div class="main">
+	  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+	  survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+	  software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+	  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+	  Lorem Ipsum passages, and more recently with desktop publ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+	  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+	  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+	  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+	  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+	  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+	  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
+	  industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+	  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publ
+	  <br> <br> <br> <br> <br> <br> Lorem Ipsum dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+	  specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+	  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+	  unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+	  of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publ
+	  <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
+	</div>
+
+	<!-- the .menu of offset away from the body, check CSS -->
+
+	<div class="menu">
+	  <div class="menu__list">
+	    item 1 <br> item 2 <br> item 3 <br> item 4
+	  </div>
+	</div>
+
+
+</body>
