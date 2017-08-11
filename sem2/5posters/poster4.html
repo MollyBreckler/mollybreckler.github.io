@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>poster4/timeout</title>
+		<title>poster4</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+		<script src="assets/js/poster4.js" charset="utf-8"></script>
 
 		<script type="text/javascript">
-		$(document).ready(function() {
+		setTimeout(function () {
+	$('.header').addClass('addred');
+}, 1000);
 
-		  // Add jQuery here
+setTimeout(function () {
+	$('.header').removeClass('addred');
+	$('.header').addClass('addblue');
+}, 4000);
 
-			$('#box').animate({  textIndent: 0 }, {
-     step: function(now,fx) {
-       $(this).css('-webkit-transform','rotate('+now+'deg)');
-     },
-     duration:'slow'
- },'linear');
-		});
+setTimeout(function () {
+	$('.header').removeClass('addblue');
+$('.header').addClass('addred');
+}, 7000);
+
+setTimeout(function () {
+$('.header').removeClass('addred');
+$('.header').addClass('addblue');
+}, 10000);
+
+setTimeout(function () {
+	$('.header').removeClass('addblue');
+}, 13000);
+
+
+
+var angle = 0;
+setInterval(function(){
+      angle+=3;
+     $("#text").rotate(angle);
+},50);
+
 		</script>
 
-      <style media="screen">
-
-
+			<style media="screen">
 			body {
 				background-color: white;
 				font-family: arial;
@@ -28,32 +48,35 @@
 				font-weight: bold;
 			}
 
+			.header {
+			 transition: all 0.5s;
+			}
+
+			.addred {
+			  color:red;
+			}
+
+			.addblue {
+			  color:blue;
+			}
 
 
 		p.thicker {
     font-weight: 900;
 		}
 
-
-
-		#box {
-		   width:100px;
-		   height:100px;
-		   position:absolute;
-		   top:100px;
-		   left:100px;
-		   text-indent: 90px;
-		   background-color:red;
+		#text{
+		  margin:100px 100px;
 		}
+
 
       </style>
     </head>
     <body>
 
 
-			<div id="box"></div>
+			<div class="header"><div id="text">
 
-			<br><br><Br><Br><Br>
 			<center>
 			<p>But What If <br>We're<bR>Wrong? </p>
 				<br>
@@ -61,5 +84,10 @@
 
 Chuck<br>Klosterman</p>
 
-</center>
+</center></div></div>
+
+<script type="text/javascript" src="http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js"></script>
+
+
+
     </body>
