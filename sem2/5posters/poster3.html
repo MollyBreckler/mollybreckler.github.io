@@ -4,7 +4,7 @@
 	<head>
 
 
-		<title>poster3/click</title>
+		<title>poster3</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
 		<script src="assets/js/poster3.js" charset="utf-8"></script>
@@ -21,102 +21,90 @@
 			/* Start here */
 
 			body {
-			  background-color: peachpuff;
+			  background-color: #FFD700;
 			  font-family: arial;
 			  font-size: 30px;
 			}
 
-			.main {
-			  width: 80%;
-			  margin: auto;
+			.text{
+				font-size: 15px;
+				color: black;
+				font-family: monospace;
+				font-style: normal;
+				line-height: 1.47em;
+			display: inline-block;
+			height: 150px;
+			position: fixed;
+			left: 50px;
+			right: 0px;
+
 			}
+						  .text1{
+						    font-size: 11px;
+						    color: black;
+						    font-family: monospace;
+						    font-style: normal;
+						    line-height: 1.47em;
+						  display: inline-block;
+						  height: 200px;
+						  position: fixed;
+						  left: 100px;
+						  right: 0px;
 
-			.nav {
-			  position: fixed;
-			  top: 10px;
-			  right: 10px;
-			  z-index: 2;
-			  cursor: pointer;
-			}
-
-
-			/* Notice the position.. it's right:-50vw; that means its 50% off the screen, HIDDEN.  */
-
-			.menu {
-			  height: 100vh;
-			  width: 50vw;
-			  background-color: skyblue;
-			  position: fixed;
-			  right: -50vw;
-			  top: 0px;
-			  z-index: 1;
-			  transition: all 2s;
-			}
-
-
-			/* The added class showme makes the right 0. So it transitions from -50vw offscreen to right 0 on screen.  */
-
-			.menu.showme {
-			  right: 0;
-			  transition: all 2s;
-			}
-
-			.main {
-			  transition: all 2s;
-			  margin-top: -0px;
-			}
-
-			.main.moveleft {
-			  margin-top: -40vw;
-			  transition: all 2s;
-			}
-
-			.backtotop {
-			  position: fixed;
-			  bottom: 0px;
-			  left: 0px;
-			}
-
+						  }
 
 
 </style>
 </head>
 <body>
+<br>
+<div class="text">
+BKS 50
+</div>
+<br><br>
 
+<div class="text1">
+	  11-18&nbsp;&nbsp;&nbsp;&nbsp;SENIORERNA<br>
+		19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SENIORERNA<br>
+		23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STOCKHOLMS POLISHUS | KVARTERET KRONOBERG<br>
+		25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATENS VETERINARMEDICINSKA ANSTALT<br>
+		29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NORRA BANCOHUSET<br>
+		31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RIKSBYGGNADERNA<br>
+		35&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SINGAPORE MASS RAPID TRANSIT SYSTEM<br>
+		37&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NYHETSHUSET FOR SVERGIES TELEVISION<br>
+		41&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FOLKREPUBLIKEN KINAS AMBASSAD | SVERIGE<br>
+		45&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KUNGLIGA BIBLIOTEKET<br>
+		47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;POSTENS HUVUDKONTOR<br>
+		53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SODERTALJE STADSHUS<br>
+		55&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GLASHUSET<br>
+		59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VASAKRONANS HUVUDKONTOR<br>
+		63&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RATTSPSYKIATRISKT CENTRUM, HUDDINGE - HELIX<br>
+		67&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CAMPUS ALBAND<br>
+		77-84&nbsp;&nbsp;&nbsp;&nbsp;JUNIORERNA<br>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+<Br>
+	01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forord<br>
+	03-10&nbsp;&nbsp;&nbsp;&nbsp;Kontor och statistik<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nyckelar
+		<br>
+		- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+		<br>
+		72-76&nbsp;&nbsp;&nbsp;&nbsp;Sjudarhojdens kursgard<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forsvarets forskningsanstalt<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Svergies ambassad i Lagos<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tomteboda postterminal<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sveriges ambassad i Lusaka<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centralposthuset<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rattspsykiatriskt centrum, Trelleborg<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nacka strand<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sodertalje sjukhus<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kvarteret Archimedes<br>
+			- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+			<br>
+			93&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verktyg<br>
+			94&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bildkallor<br>
 
-	<div class="nav">
-	  Menu
-	</div>
-
-	<div class="main">
-	  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-	  survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-	  software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-	  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-	  Lorem Ipsum passages, and more recently with desktop publ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-	  of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-	  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-	  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-	  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-	  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-	  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
-	  industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-	  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publ
-	  <br> <br> <br> <br> <br> <br> Lorem Ipsum dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-	  specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-	  with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-	  unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-	  of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publ
-	  <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br> <br>
-	</div>
-
-	<!-- the .menu of offset away from the body, check CSS -->
-
-	<div class="menu">
-	  <div class="menu__list">
-	    item 1 <br> item 2 <br> item 3 <br> item 4
-	  </div>
-	</div>
+</div>
 
 
 </body>
