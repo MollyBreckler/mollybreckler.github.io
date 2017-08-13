@@ -10,6 +10,19 @@
 
 		$(document).ready(function() {
 
+	var audioBell = document.createElement('audio');
+	audioBell.setAttribute('src', 'http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
+	$.get();
+	audioBell.addEventListener("load", function() {
+		audioBel. play();
+	}, true);
+
+
+
+
+        $('.play_bell').click(function() {
+          audioBell.play();
+        });
 
 
 });
@@ -211,14 +224,61 @@ z-index: 7;
 -webkit-animation: mini 6s linear;
 }
 
+.img{
+	width: 100%;
+	height: 100%;
+display: inline-block;
+height: 200px;
+position: fixed;
+left: 920px;
+right: 0px;
 
+}
 
+.bell{
+	font-family: helvetica;
+	color: pink;
+	font-size: 30px;
+	left: 200px;
+	bottom: 30px;
+}
 
+div.transbox {
+  margin: 0px;
+  background-color: black;
+  border: 1px solid black;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  font-weight: bold;
+	font-size: 15px;
+	color: pink;
+	font-family: futura;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.47em;
+display: inline-block;
+height: 200px;
+position: fixed;
+left: 920px;
+right: 0px;
+}
 
 
       </style>
     </head>
     <body>
+			<div class="transbox"><div class="bell">
+								<div class="play_bell">Play bell</div>
+								<div class="pause_bell">Stop bell</div>
+
+
+			    <p>This is some text that is placed in the transparent box.</p>
+			  </div></div>
+
+
+
 			<div class=mini></div>
 			<div class=mini1></div>
 			<div class=mini2></div>
@@ -2764,8 +2824,6 @@ z-index: 7;
 									<div id="square"></div>
 									<div id="square"></div>
 									<div id="square"></div>
-
-
 
 
 
