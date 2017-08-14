@@ -24,6 +24,9 @@
           audioBell.play();
         });
 
+			         $('.pause_bell').click(function() {
+			           audioBell.pause();
+			         });
 
 });
 		</script>
@@ -234,16 +237,11 @@ left: 920px;
 right: 0px;
 
 }
-
-
-
-
-
 div.transbox {
 display: inline-block;
 height: 200px;
 position: fixed;
-left: 920px;
+left: 1020px;
 right: 0px;
 }
 
@@ -253,9 +251,8 @@ right: 0px;
       </style>
     </head>
     <body>
-			<div class="transbox"><div class="play_bell"><img src="playbutton.png" height="50" style="max-width: 110px" alt="">
-			  </div></div>
-
+			<div class="transbox">
+				<div class="play_bell"><img src="playbutton.png" height="50" style="max-width: 110px" alt=""></div><div class="pause_bell"><img src="stop.png" height="48" style="max-width: 100px" alt=""></div></div>
 
 
 			<div class=mini></div>
