@@ -10,11 +10,11 @@
 
 		$(document).ready(function() {
 
-	var audioBell = document.createElement('audio');
-	audioBell.setAttribute('src', 'http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
-	$.get();
-	audioBell.addEventListener("load", function() {
-		audioBel. play();
+				var audioBell = document.createElement('audio');
+				audioBell.setAttribute('src', 'pacman.mp3');
+				$.get();
+				audioBell.addEventListener("load", function() {
+					audioBel. play();
 	}, true);
 
 
@@ -235,29 +235,11 @@ right: 0px;
 
 }
 
-.bell{
-	font-family: helvetica;
-	color: pink;
-	font-size: 30px;
-	left: 200px;
-	bottom: 30px;
-}
+
+
+
 
 div.transbox {
-  margin: 0px;
-  background-color: black;
-  border: 1px solid black;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-div.transbox p {
-  font-weight: bold;
-	font-size: 15px;
-	color: white;
-	font-family: futura;
-	font-weight: 300;
-	font-style: normal;
-	line-height: 1.47em;
 display: inline-block;
 height: 200px;
 position: fixed;
@@ -266,12 +248,13 @@ right: 0px;
 }
 
 
+
+
       </style>
     </head>
     <body>
-			<div class="transbox">
-			    <p>Play music, go back, go forward, go home</p>
-			  </div>
+			<div class="transbox"><div class="play_bell"><img src="playbutton.png" height="50" style="max-width: 110px" alt="">
+			  </div></div>
 
 
 
@@ -2822,11 +2805,7 @@ right: 0px;
 									<div id="square"></div>
 
 
-<br><br><br><br><br><br><br><br>
-<div class="bell">
-					<div class="play_bell">Play bell</div>
-					<div class="pause_bell">Stop bell</div>
-
+<br>
 
 
 
