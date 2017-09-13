@@ -88,7 +88,7 @@ p { font-size: 1.55em; line-height: 1.35em; padding: 2px 0; margin-bottom: 15px;
   color: ;
   padding: 10px 11px;
   margin-right: ;
-  font-size: 30px;
+  font-size: 20px;
   line-height: ;
   font-weight: bold;
   text-decoration: none;
@@ -126,10 +126,10 @@ p { font-size: 1.55em; line-height: 1.35em; padding: 2px 0; margin-bottom: 15px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 550px;
-  padding-top: 85px;
-  margin-bottom: 40px;
-  box-shadow: inset 1px -9px 20px -6px #000;
+  min-height: 1000px;
+  padding-top: -10px;
+  margin-bottom: 10px;
+
 }
 
 
@@ -143,10 +143,15 @@ p { font-size: 1.55em; line-height: 1.35em; padding: 2px 0; margin-bottom: 15px;
 #portfolio {
   min-height: 500px;
   padding-top: 75px;
-  box-shadow: inset 1px -9px 20px -6px #000;
+
 }
 
 #contact {
+  padding-top: 75px;
+  margin-bottom: 40px;
+}
+
+#scuba {
   padding-top: 75px;
   margin-bottom: 40px;
 }
@@ -201,7 +206,7 @@ body {
     }
 
     #clouds{
-      padding: 100px 0;
+      padding: 250px 0;
       background: #c9dbe9;
       background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 	    background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -314,7 +319,7 @@ body {
 }
 
 
-.mountain{
+#company{
   padding: 500px 0;
   background: #c9dbe9;
   background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -322,7 +327,7 @@ body {
   background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 }
 
-.waves{
+#portfolio{
   padding: 500px 0;
   background: #c9dbe9;
   background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -330,7 +335,7 @@ body {
   background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 }
 
-.water{
+#contact{
   padding: 500px 0;
   background: #c9dbe9;
   background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -338,7 +343,7 @@ body {
   background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
 }
 
-.scuba{
+#scuba{
   padding: 500px 0;
   background: #c9dbe9;
   background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -358,10 +363,11 @@ body {
 <body>
   <nav id="navigation">
     <ul id="topnav">
-      <li class="current"><a href="#home">Scuba</a></li>
+      <li class="current"><a href="#home">Sky</a></li>
       <li><a href="#company">Cliff</a></li>
       <li><a href="#portfolio">Competitive</a></li>
       <li><a href="#contact">Swimming</a></li>
+      <li><a href="#scuba">Scuba</a></li>
     </ul>
   </nav>
 
@@ -401,6 +407,12 @@ body {
     <!-- BG Image Source: http://www.flickr.com/photos/oimax/231024527/ -->
 
     <section id="contact">
+      <div class="wrapper">
+
+      </div>
+    </section>
+
+    <section id="scuba">
       <div class="wrapper">
 
       </div>
