@@ -17,7 +17,7 @@ background-color: white;
 .container{
 
 display: flex;
-border: 100px solid goldenrod;
+border: 40px solid goldenrod;
 flex-wrap: wrap;
 }
 
