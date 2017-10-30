@@ -25,6 +25,15 @@ body {
   display: flex;
 }
 
+.toolbar{
+display: flex;
+flex-wrap: wrap;
+min-width: 1250px;
+overflow: hidden;
+
+}
+
+.toolbar img {}
 
 .header{
   width: 1250px;
@@ -76,7 +85,7 @@ body {
 }
 
 .header7{
-  width: 725px;
+  width: 751px;
   height: 20px;
   z-index: -1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -106,7 +115,7 @@ body {
 }
 
 .header11{
-  width: 240px;
+  width: 252px;
   height: 60px;
   z-index: -1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -141,14 +150,13 @@ body {
     padding: 40px;
 
   }
-  span {
-    font-family: times;
-    font-size: 12px;
 
-
+  .time{
+    font-size: 50px;
+    font-family: monospace;
   }
 
-  span:hover{font-size: 30px; font-family: times;}
+
   @keyframes type{
     from { width: 0; }
     }
@@ -167,31 +175,10 @@ body {
     background-color: orange;
     z-index: 9;
     }
-.time {
-  font-family: arial;
-  font-size: 100px;
-
-}
-
-.image_swap{
-  margin: auto;
-  width: 600px;
-}
-
-.image_swap img{
-  max-width:100%
-}
-
-.image_swap .message{
-  text-align: center;
-  font-size: 50px;
-  font-family: arial;
-}
 
 
-.grace{
-  font-size: 80px;
-  font-family: arial;
-  text-align: center;
-  color: red;
-}
+
+  .button {
+    font-family: monospace;
+    font-size: 12px;
+  }

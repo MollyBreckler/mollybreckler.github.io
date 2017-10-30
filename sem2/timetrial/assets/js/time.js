@@ -28,15 +28,15 @@ $(document).ready(function() {
     }
 
     function checkHalfSecond(momentSecond){
-      if(momentSecond < 30) {halfSecond = 'halfM';}
-      else {halfSecond = 'fullM';}
+      if(momentSecond < 30) {halfSecond = 'halfS';}
+      else {halfSecond = 'fullS';}
     }
 
     function checkHalfMinute(momentMinute){
-      if(momentMinute < 15) {halfMinute = 'quarterH';}
-      else if(momentMinute < 30){halfMinute = 'halfH';}
-      else if(momentMinute < 45){halfMinute = 'threequarterH';}
-      else {halfMinute = 'fullH';}
+      if(momentMinute < 15) {halfMinute = 'quarterM';}
+      else if(momentMinute < 30){halfMinute = 'halfM';}
+      else if(momentMinute < 45){halfMinute = 'threequatersM';}
+      else {halfMinute = 'fullM';}
     }
 
     // Check if odd, even, quaterpast
@@ -52,7 +52,7 @@ $(document).ready(function() {
     $('body').attr('class', timeClass);
 
     // Add format
-    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss:SS A'));
+    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss A'));
   };
 
   var intervalId = setInterval(update, 100);

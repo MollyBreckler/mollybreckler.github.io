@@ -39,6 +39,13 @@ $(document).ready(function() {
       else {halfMinute = 'fullH';}
     }
 
+    function checkHalfHour(momentHour){
+      if(momentHour < 15) {halfHour = 'quarterH';}
+      else if(momentHour < 30){halfHour = 'halfH';}
+      else if(momentHour < 45){halfHour = 'threequarterH';}
+      else {halfHour = 'fullH';}
+    }
+
     // Check if odd, even, quaterpast
     oddOrEvenS(momentSecond);
     checkHalfSecond(momentSecond);

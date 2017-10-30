@@ -2,41 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>wasteoftime.doc</title>
+    <title>Title</title>
+    <!-- Require these to reset browser styles and debugging -->
+    <link rel="stylesheet" href="assets/css/_normalize.css">
+    <link rel="stylesheet" href="assets/css/_debug.css">
+
+    <!-- Add custom styles here -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/time.css">
+
+    <!-- Require these for JS -->
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
-    <script src="assets/js/main.js" charset="utf-8">
+    <script src="assets/js/moment-with-locales.min.js" charset="utf-8"></script>
+    <script src="assets/js/time.js" charset="utf-8"></script>
 
-
-    </script>
-
-          <style media="screen">
-          * {
-          box-sizing: border-box;
-        }
-        /* Start here */
-        </style>
-
+    <!-- Add custom JS here -->
+    <script src="assets/js/main.js" charset="utf-8"></script>
   </head>
   <body>
 
+    <!-- Start here -->
+
     <div class="time"></div>
 
-    <button type="button" id="pause" name="button">Pause</button>
-      <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfM fullM quarterH halfH threequarterH fullH am pm
-      </textarea>
-    <img class="header" src="assets/images/top1.png" alt="">
-    <img class="header1" src="assets/images/home.png" alt="">
-    <img class="header2" src="assets/images/document.png" alt="">
-    <img class="header3" src="assets/images/tables.png" alt="">
-    <img class="header4" src="assets/images/charts.png" alt="">
-    <img class="header5" src="assets/images/smartart.png" alt="">
-    <img class="header6" src="assets/images/review.png" alt="">
-    <img class="header7" src="assets/images/top2.png" alt="">
-        <img class="header8" src="assets/images/font.png" alt="">
-        <img class="header9" src="assets/images/paragraph.png" alt="">
-        <img class="header10" src="assets/images/styles.png" alt="">
-        <img class="header11" src="assets/images/insert.png" alt="">
+<div class="toolbar">
+  <img class="header" src="assets/images/top1.png" alt="">
+</div>
+
+
+<div class="toolbar">
+
+  <img class="header1" src="assets/images/home.png" alt="">
+  <img class="header2" src="assets/images/document.png" alt="">
+  <img class="header3" src="assets/images/tables.png" alt="">
+  <img class="header4" src="assets/images/charts.png" alt="">
+  <img class="header5" src="assets/images/smartart.png" alt="">
+  <img class="header6" src="assets/images/review.png" alt="">
+  <img class="header7" src="assets/images/top2.png" alt="">
+</div>
+
+<div class="toolbar">
+  <img class="header8" src="assets/images/font.png" alt="">
+  <img class="header9" src="assets/images/paragraph.png" alt="">
+  <img class="header10" src="assets/images/styles.png" alt="">
+  <img class="header11" src="assets/images/insert.png" alt="">
+</div>
+
 
 
 
@@ -49,7 +60,7 @@
 
         <h1 contenteditable="true"  class="paragraph">
 
-<span>Procrastination<span> is<span> the<span> avoidance<span> of<span> doing<span> a<span> task<span> that<span> needs<span> to<span> be<span> accomplished.<span> Sometimes,<span> procrastination<span> takes<span> place<span> until<span> the<span> "last<span> minute"<span> before<span> a<span> deadline.<span> Procrastination<span> can<span> take<span> hold<span> on<span> any<span> aspect<span> of<span> life—putting<span> off<span> cleaning<span> the<span> stove,<span> repairing<span> a<span> leaky<span> roof,<span> seeing<span> a<span> doctor<span> or<span> dentist,<span> submitting<span> a<span> job<span> report<span> or<span> academic<span> assignment<span> or<span> broaching<span> a<span> stressful<span> issue<span> with<span> a<span> partner.<span> Procrastination<span> can<span> lead<span> to<span> feelings<span> of<span> guilt,<span> inadequacy,<span> depression<span> and<span> self-doubt.<br><br>
+Procrastination is the avoidance of doing a task that needs to be accomplished. Sometimes, procrastination takes place until the "last minute"  before a deadline. Procrastination can take hold on any aspect of life—putting off cleaning the stove, repairing a leaky roof, seeing a doctor or dentist, submitting a job report or academic assignment or broaching a stressful issue with a partner. Procrastination can lead to feelings of guilt, inadequacy, depression and self-doubt.<br><br>
   In a study of academic procrastination from the University of Vermont, published in 1984, 46% of the subjects reported that they "always" or "nearly always" procrastinate writing papers, while approximately 30% reported procrastinating studying for exams and reading weekly assignments. Nearly a quarter of the subjects reported that procrastination was a problem for them, regarding the same tasks. However, as many as 65% indicated that they would like to reduce their procrastination when writing papers and approximately 62% indicated the same for studying for exams and 55% for reading weekly assignments. <Br><br>
 A 1992 study showed that "52 [percent] of surveyed students indicated having a moderate to high need for help concerning procrastination." It is estimated that 80–95% of college students engage in procrastination, and approximately 75% consider themselves procrastinators.<br><br>
 In a study performed on university students, procrastination was shown to be greater on tasks that were perceived as unpleasant or as impositions than on tasks for which the student believed he or she lacked the required skills for accomplishing the task.<br><br>
@@ -62,11 +73,22 @@ For many people, procrastination is a strong and mysterious force that keeps the
 But the reasons people procrastinate are not understood that well. Some researchers have viewed procrastination largely as a failure of self-regulation — like other bad behaviors that have to do with a lack of self-control, such as overeating, a gambling problem or overspending. Others say it's not a matter of being lazy or poor time management, as many smart overachievers who procrastinate often can attest. They say it may actually be linked to how our brain works and to deeper perceptions of time and the self.<br><br>
 </h1>
 
+
+<div class="button">
+<center><input type="button" value="CLICK ME" onclick="alert('Thanks... I feel much better now!');" style="font-size:2em;background:lime"></center></div>
 </div></div>
 
 
 
-
   <img class="footer" src="assets/images/footer1.png" alt="">
+
+
+
+
+    <!-- remove later, used for debugging -->
+    <button type="button" id="pause" name="button">Pause</button>
+    <textarea id="timeClasses" name="name" rows="2" cols="40">evenS oddS evenM oddM halfM fullM quarterH halfH threequarterH fullH am pm
+    </textarea>
+
   </body>
 </html>

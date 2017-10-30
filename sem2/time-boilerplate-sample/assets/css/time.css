@@ -21,13 +21,16 @@ body.evenS.pm .sunset {
 
 /* Time CSS here */
 
-body.evenS{
-  background-color: black;
+body.evenS .time{
+  color: red;
+
 }
 
-body.oddS{
-  background-color: white;
+body.oddS .time{
+  color: blue;
+
 }
+
 
 body.evenS .time, body.evenS .message{
 color: white;
