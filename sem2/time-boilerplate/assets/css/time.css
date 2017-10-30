@@ -31,6 +31,14 @@ body.oddS .time{
 
 }
 
+body.oddS .banner1 {
+color: pink;
+}
+
+body.evenS .banner1 {
+color: green;
+}
+
 body.evenM .paragraph {
 display: show;
 }
@@ -40,10 +48,11 @@ display: none;
 }
 
 
-body.halfH .button {
-display: block;
+
+body.evenM .button {
+display: none;
 }
 
-body.fullH .button {
-display: none;
+body.oddM .button {
+display: show;
 }

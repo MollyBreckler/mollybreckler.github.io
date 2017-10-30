@@ -5,13 +5,6 @@ $(document).ready(function() {
 
 
 
-function myFunction() {
-    alert("I am an alert box!");
-}
-
-
-
-
 
 
 

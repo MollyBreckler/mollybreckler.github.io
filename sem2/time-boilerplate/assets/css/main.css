@@ -21,6 +21,16 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.banner1 {
+  background-color: pink;
+  width: 700px;
+  height: 1000px;
+  margin: auto;
+  align-items: flex-end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 .row {
   display: flex;
 }
@@ -181,4 +191,20 @@ overflow: hidden;
   .button {
     font-family: monospace;
     font-size: 12px;
+  }
+
+  .lastpage{
+    font-family: monospace;
+    font-size: 12px;
+    height: 180px;
+    left: 50px;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .congratulations{
+    font-family: helvetica;
+    font-size: 40px;
+    font-weight: 500;
+
   }
