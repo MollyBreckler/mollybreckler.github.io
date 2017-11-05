@@ -22,12 +22,44 @@ body {
 }
 
 .banner1 {
-  background-color: ;
+  background-color: pink;
   width: 700px;
   height: 1000px;
   margin: auto;
   align-items: flex-end;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.banner1 {
+  background-color: 	#F8F8FF;
+  font-family: brandon-grotesque;
+}
+
+
+.banner1 {
+  animation: colorchange 3s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 3s; /* Chrome and Safari */
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: pink;}
+  50%  {background: purple;}
+  75%  {background: blue;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: red;}
+  25%  {background: pink;}
+  50%  {background: purple;}
+  75%  {background: blue;}
+  100% {background: red;}
 }
 
 
@@ -141,6 +173,14 @@ overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.footer1{
+
+  position: fixed;
+  bottom: 50px;
+  left: 1109px;
+
+}
+
 .css-typing
 {
   width: 30em;
@@ -166,6 +206,7 @@ overflow: hidden;
     font-family: helvetica;
     color: black;
     left: 500px;
+
   }
 
 
@@ -193,6 +234,7 @@ overflow: hidden;
   .button {
     font-family: monospace;
     font-size: 12px;
+
   }
 
   .lastpage{

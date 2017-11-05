@@ -26,9 +26,9 @@ body.evenM .time{
 
 }
 
-body.oddM .time{
+body.oddhalfM .time{
     font-size: 195px;
-    background-color: black;
+    background-color: ;
 
 
 }
@@ -100,10 +100,10 @@ display: show;
 
 
 
-body.evenM .button {
-display: none;
+body.evenhalfM .button {
+display: show;
 }
 
-body.oddM .button {
-display: show;
+body.oddhalfM .button {
+display: none;
 }
