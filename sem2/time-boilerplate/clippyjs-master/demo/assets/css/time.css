@@ -22,16 +22,30 @@ body.evenS.pm .sunset {
 /* Time CSS here */
 
 body.evenM .time{
-  color: ;
-
 }
 
 body.oddM .time{
     font-size: 195px;
     background-color: ;
-
-
 }
+
+
+body.oddM .marquee{
+  display: show;
+  font-size: 50px;
+  font-family: monospace;
+  color:red ;
+  left: 350px;
+  position: fixed;
+  top: 100px;
+}
+
+body.evenM .marquee{
+  display: none;
+  
+}
+
+
 
 body.evenM .footer{
 display: show;
@@ -106,4 +120,24 @@ display: show;
 
 body.oddhalfM .button {
 display: none;
+}
+
+
+
+
+
+body.am .image_swap .eclipse, body.pm .image_swap .morning{
+  display: none;
+}
+
+body.pm .image_swap .eclipse, body.am .image_swap .morning{
+  display: block;
+}
+
+body.am .image_swap .sunrise, body.pm .image_swap .afternoon{
+  display: block;
+}
+
+body.pm .image_swap .sunrise, body.am .image_swap .afternoon{
+  display: none;
 }
