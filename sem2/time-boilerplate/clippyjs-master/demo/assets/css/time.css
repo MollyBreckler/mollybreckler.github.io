@@ -22,13 +22,13 @@ body.evenS.pm .sunset {
 /* Time CSS here */
 
 body.evenM .time{
-  color: black;
+  color: ;
 
 }
 
 body.oddM .time{
     font-size: 195px;
-    background-color: BLAC;
+    background-color: black;
 
 
 }
@@ -72,7 +72,9 @@ display: show;
 
 }
 
-
+body.oddS .banner1 {
+color: blue;
+}
 
 body.evenS .banner1 {
 color: green;
