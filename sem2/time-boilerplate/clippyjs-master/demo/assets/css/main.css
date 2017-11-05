@@ -264,4 +264,47 @@ overflow: hidden;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
   }
 
-  
+
+  /* counter timer */
+.counter {
+  font-family: helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+  position: fixed;
+  bottom: 10px;
+  left:30px;
+}
+
+.counter:hover {
+  font-size: 200px;
+  margin: auto;
+}
+
+.counter__message {
+  color: white;
+  display:none;
+    position: fixed;
+    bottom: 210px;
+    left: 40px;
+    font-size: 50px;
+    font-family: helvetica, sans-serif;
+}
+
+ .counter__message.showme {
+  display: flex;
+}
+
+
+.draggable {
+  display: none;
+  cursor: move;
+  z-index: 1;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+}
+
+.christian {
+  position: fixed;
+  top: 350px;
+  left: 300px;
+  width: 250px;
+}
