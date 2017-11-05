@@ -59,7 +59,7 @@ $(document).ready(function() {
     $('body').attr('class', timeClass);
 
     // Add format
-    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss'));
+    $('.time').html(moment().format('h:mm:ss'));
   };
 
   var intervalId = setInterval(update, 100);

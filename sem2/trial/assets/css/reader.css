@@ -1,0 +1,778 @@
+! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Start here */
+.clear {
+  display: none;
+  position: fixed;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  top:0; left:0; right:0; bottom:0;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;
+  z-index: 99;
+  color: red;
+}
+
+.clear.show {
+  display: flex;
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;
+  z-index: 99;
+}
+
+
+.loading {
+  display:none;
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;
+  z-index: 99;
+}
+
+.loading.showme {
+  display: flex;
+  margin: auto;
+}
+
+.intro {
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: blue;
+color: transparent;
+font-size: 100px;
+text-align: center;
+transition:all 2s;
+}
+
+.intro.new__width.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.intro.new__width {
+  font-size: 40px;
+  transition:all 2s;
+}
+
+.intro.shrink {
+  font-size: 2px;
+  transition: all 2s;
+}
+
+.downarrow {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: blue;
+  color: transparent;
+  position: relative;
+  top:100px;
+  right: 30px;
+  text-align: center;
+  font-size: 200px;
+  flex-wrap:wrap;
+  transform: rotate(-90deg)
+}
+
+.downarrow.shrink {
+  font-size: 2px;
+  transition: all 2s;
+}
+
+.heading {
+  color: transparent;
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: black;
+  /*border-top: 5px solid;
+  border-bottom: 5px solid;*/
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
+  padding-top:100px;
+  padding-bottom: 100px;
+  transition:all 2s;
+}
+
+.gif {
+  transition:all 2s;
+}
+
+.gif.shrink {
+  height: 0px;
+  transition:all 2s;
+}
+/*
+.attention {
+  position: relative;
+  top: 45px;
+  left: -10%;
+}*/
+
+.heading.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.heading.new__width.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.heading.new__width {
+  font-size: 60px;
+
+}
+
+body {
+  font-family: helvetica, sans-serif;
+}
+/* chapters and footnotes */
+.heading__chapter {
+  /*text-shadow: blue 0em 0.03em 0.5em;*/
+  color: transparent;
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: blue;
+}
+.chapter {
+  display: inline-block;
+  font-family: times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  transition:all 2s;
+}
+
+
+.new {
+  animation: spinX 5s infinite linear;
+  font-size: 40px;
+  text-shadow: blue 0.1em 0.1em 0.3em;
+  font-family: monospace;
+  transition:all 2s;
+}
+@keyframes spinX {
+  from { transform: rotateX(0deg); }
+  to { transform: rotateX(360deg); }
+}
+
+.new:hover {
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.new.shrink {
+  font-size: 2px;
+}
+
+.footnote {
+    text-align: left;
+    text-transform: none;
+    position: absolute;
+    top: 15px;
+    left: -135px;
+    border: 1.5px solid;
+    padding: 5px;
+    font-family: helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    width: 105px;
+    display: none;
+}
+
+.footnote.showme {
+  display: block;
+}
+
+.footnote.shrink {
+  font-size: 2px;
+  border:none;
+}
+
+.appear {
+  display: none;
+  position: absolute;
+  /*pointer-events:none;*/
+  cursor: pointer;
+}
+
+.appear.showme {
+  display: inline-block;
+  border: 1.5px solid;
+  padding: 5px;
+  font-family: helvetica; sans-serif;
+  font-size: 10px;
+  width: 105px;
+}
+
+/* color transition background */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-animation: background 80s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
+  animation: background 80s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
+}
+
+
+@-webkit-keyframes background {
+  0% {background-color: #FFF701;}
+  16.6% { background-color: #F6BEB2; }
+  33% {background-color: #fff7f1;}
+  49.8% { background-color: #EAE8DB; }
+  66.5% { background-color: #F65339; }
+  83% { background-color: #FFAB00; }
+  100% {background-color: #FFF701;}
+}
+
+@keyframes background {
+  0% {background-color: #FFF701;}
+  16.6% { background-color: #F6BEB2; }
+  33% {background-color: #fff7f1;}
+  49.8% { background-color: #EAE8DB; }
+  66.5% { background-color: #F65339; }
+  83% { background-color: #FFAB00; }
+  100% {background-color: #FFF701;}
+}
+
+/* scroll speed checker */
+
+.slowdown.show {
+  display: flex;
+  margin: auto;
+  z-index: 99;
+}
+
+.slowdown {
+    display:none;
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap:wrap;
+}
+
+.slowdown__image {
+  justify-content: center;
+  align-items: center;
+}
+
+/* counter timer */
+.counter {
+  font-family: helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+  position: fixed;
+  bottom: 10px;
+  left:30px;
+}
+
+.counter:hover {
+  font-size: 200px;
+  margin: auto;
+}
+
+.counter__message {
+  color: white;
+  display:none;
+    position: fixed;
+    bottom: 210px;
+    left: 40px;
+    font-size: 50px;
+    font-family: helvetica, sans-serif;
+}
+
+ .counter__message.showme {
+  display: flex;
+}
+
+
+/* subheadings within text */
+.subheading {
+  font-weight: bold;
+}
+
+/* article texts and resizing */
+.text {
+  font-family: helvetica, sans-serif;
+  transition:all 0.5s;
+  width: 100%;
+  font-size: 100px;
+}
+
+.text.new__width {
+  width: 890px;
+  margin-left: 150px;
+  transition:all 2s;
+  font-size: 40px;
+}
+
+.text.new__size {
+  width: 100px;
+  margin-left: 150px;
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.chapter.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+/* distracting popups */
+.draggable {
+  display: none;
+  cursor: move;
+  z-index: 1;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+}
+
+.christian {
+  position: fixed;
+  top: 350px;
+  left: 300px;
+  width: 250px;
+}
+
+.congratulations {
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
+}
+
+.flash {
+  position: fixed;
+  top: 250px;
+  left: 500px;
+}
+
+.buzzfeed {
+  position: fixed;
+  top: 600px;
+  left: 100px;
+}
+
+.hes52 {
+  position: fixed;
+  top: 100px;
+  left: 700px;
+}
+
+.congratulations2 {
+  position: fixed;
+  top: 50px;
+  left: 200px;
+}
+
+.congratulations3 {
+  position: fixed;
+  top: 330px;
+  left: 50px;
+}
+
+.congratulations4 {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+}
+
+.derma {
+  position: fixed;
+  top: 150px;
+  right: 150px;
+}
+
+.pill {
+  position: fixed;
+  bottom: 50px;
+  right: 300px;
+}
+
+.testosterone {
+  position: fixed;
+  top: 150px;
+  left: 300px;
+}
+
+.retailers {
+  position: fixed;
+  top: 120px;
+  left: 100px;
+}
+
+.people {
+  position: fixed;
+  top: 400px;
+  left: 160px;
+}
+
+.celebrities {
+  position: fixed;
+  top: 415px;
+  left: 530px;
+}
+
+.fat {
+  position: fixed;
+  top: 200px;
+  left: 420px;
+}
+
+.cute {
+  position: fixed;
+  top: 400px;
+  left: 220px;
+}
+
+.penguins {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
+
+.backflip {
+  position: fixed;
+  top: 245px;
+  left: 250px;
+}
+
+.wine {
+  position: fixed;
+  top: 210px;
+  left: 680px;
+}
+
+.arthur {
+  position: fixed;
+  top: 300px;
+  left: 670px;
+}
+
+.meme {
+  position: fixed;
+  top: 35px;
+  left: 580px;
+}
+
+.nicolascage {
+  position: fixed;
+  top: 535px;
+  left: 200px;
+}
+
+.animal {
+  position: fixed;
+  top: 40px;
+  left: 230px;
+}
+
+.flowers {
+  position: fixed;
+  top: 240px;
+  left: 300px;
+}
+
+.chloe {
+  position: fixed;
+  top: 505px;
+  left: 350px;
+}
+
+.instagram {
+  position: fixed;
+  top: 475px;
+  left: 410px;
+}
+/* distracting sidebar notifications*/
+.notif {
+  color: #4D4D4D;
+  padding-left: 5px;
+  display:inline-block;
+  vertical-align: middle;
+  width:240px;
+}
+
+.icon {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+/* (flex not working??) */
+.notification__appear {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 10.5px;
+  width: 302px;
+  height: 50px;
+  background-color: #F0F0F0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 12px;
+  border-radius:7px;
+  font-family: helvetica, sans-serif;
+  font-size: 11.5px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+.notification__appear.showme {
+  display: flex;
+  position: fixed;
+  top: 10px;
+  right: 10.5px;
+  width: 302px;
+  z-index: 99;
+}
+
+.notification.show {
+  display: flex;
+  transition: all 0.6s;
+  position: fixed;
+  top: 10px;
+  right: 10.5px;
+  width: 302px;
+  z-index: 99;
+}
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: -50vw;
+    width: 302px;
+    height: 50px;
+    transition: all 0.6s;
+    background-color: #F0F0F0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    border-radius:7px;
+    font-family: helvetica, sans-serif;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    font-size: 11.5px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    display:flex;
+    vertical-align: middle;
+}
+
+.notification__image {
+  z-index: 99;
+}
+
+.two__lines {
+  position: fixed;
+  top: 10px;
+  right: -50vw;
+  width: 302px;
+  transition: all 0.6s;
+  background-color: #F0F0F0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 14px;
+  padding-bottom: 5px;
+  border-radius:7px;
+  font-family: helvetica, sans-serif;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+  font-size: 11.5px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  display:flex;
+  vertical-align: middle;
+}
+
+.gym {
+  position: fixed;
+  top: 90px;
+  right: -50vw;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.gym.show {
+  top: 90px;
+  right: 2px;
+}
+
+.update {
+  position: fixed;
+  top: 10px;
+  right: -50vw;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.update.show {
+  top: 10px;
+  right: 4px;
+}
+
+.lowbatt {
+  position: fixed;
+  top: 85px;
+  right: -50vw;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.lowbatt.show {
+  top: 85px;
+  right: 4.5px;
+}
+
+.fb1 {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 1px;
+  cursor: pointer;
+}
+
+.fb2 {
+  display: none;
+  position: fixed;
+  top: 90px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb3 {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb4 {
+  display: none;
+  position: fixed;
+  top: 117px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb5 {
+  display: none;
+  position: fixed;
+  top: 207px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb6 {
+  display: none;
+  position: fixed;
+  top: 298px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.t27 {
+  display: none;
+}
+
+.fb7 {
+  display: none;
+  position: fixed;
+  top: 90px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb8 {
+  display: none;
+  position: fixed;
+  top: 223px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb9 {
+  display: none;
+  position: fixed;
+  top: 90px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.fb10 {
+  display: none;
+  position: fixed;
+  top: 207px;
+  right: 4px;
+  cursor: pointer;
+}
+
+
+ /*reader gameover screen when fake links are clicked
+
+.gameover {
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  top:0; left:0; right:0; bottom:0;
+  font-size:100px;
+  display:none;
+  background-color:#000;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+.message.top {
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+}
+
+.gameover.active {
+  display: flex;
+  color:#fff;
+}*/
+
+/* fake links */
+
+.dummylink {
+  font-family: times, serif;
+  text-transform: uppercase;
+  /*color:blue;*/
+  /*text-decoration: underline;*/
+  cursor: help;
+}
+
+.dummylink:hover {
+  color:orange;
+  text-decoration: underline;
+}
+
+/* actual links to sources in footnotes */
+a {
+  color: black;
+}
