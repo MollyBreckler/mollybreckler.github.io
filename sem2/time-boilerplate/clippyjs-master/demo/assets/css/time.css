@@ -32,18 +32,23 @@ body.oddM .time{
 
 body.oddM .marquee{
   display: show;
-  font-size: 50px;
-  font-family: monospace;
-  color:red ;
-  left: 350px;
-  position: fixed;
-  top: 100px;
+
 }
 
 body.evenM .marquee{
   display: none;
-  
+
 }
+
+body.evenM .typewriter{
+  display: show;
+
+}
+body.oddM .typewriter{
+  display: none;
+
+}
+
 
 
 
