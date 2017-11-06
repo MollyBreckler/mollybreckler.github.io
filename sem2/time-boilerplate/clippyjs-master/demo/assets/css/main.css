@@ -337,3 +337,18 @@ overflow: hidden;
   from, to { border-color: transparent }
   50% { border-color: transparent }
 }
+
+
+.aboutpage{
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 35px;
+  width: 1100px;
+  height: 1000px;
+  margin: auto;
+  color: red;
+}
