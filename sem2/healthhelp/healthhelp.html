@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NutritionHabits</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+
+		$(document).ready(function() {
+
+				var audioBell = document.createElement('audio');
+				audioBell.setAttribute('src', 'healthhelprecording.mp3');
+				$.get();
+				audioBell.addEventListener("load", function() {
+					audioBel. play();
+	}, true);
+
+
+
+
+        $('.play_bell').click(function() {
+          audioBell.play();
+        });
+
+			         $('.pause_bell').click(function() {
+			           audioBell.pause();
+			         });
+
+});
+		</script>
+
+
+          <style media="screen">
+    * {
+      background: #FF8C00;
+      height: 15000px;
+      }
+
+
+      .disclaimer{
+        font-family: helvetica;
+        font-weight: 550;
+        font-size: 34px;
+        color: white;
+      }
+
+      .dream{
+      font-family: helvetica;
+      font-weight: 550;
+      font-size: 50px;
+      color: white;
+          }
+
+
+      .blue{
+      font-family: helvetica;
+      font-weight: 550;
+      font-size: 80px;
+      color: white;
+          }
+
+      .footer{
+      font-family: helvetica;
+      font-weight: 550;
+      font-size: 50px;
+      color: white;
+
+      }
+
+
+
+
+            @-moz-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+
+            @-webkit-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            /* IE */
+            @-ms-keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            /* Opera and prob css3 final iteration */
+            @keyframes blink {
+                0% {
+                    opacity:1;
+                }
+                50% {
+                    opacity:0;
+                }
+                100% {
+                    opacity:1;
+                }
+            }
+            .blink-image {
+                -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+                -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+                -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+                animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+            }
+
+      @-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+
+
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+	color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 55px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid white;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 50%;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+	background: white;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;
+
+}
+
+.button{
+  position: fixed;
+  top: 600px;
+  left: 1000px;
+}
+
+
+
+img.animated-gif{
+  width: 400px;
+  height: auto;
+
+}
+
+img.dontdiet{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 600px;
+  top:15000px;
+}
+
+img.laugh{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 590px;
+  top:13800px;
+}
+
+img.chopsticks{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 500px;
+  top:12500px;
+
+}
+
+img.gum{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 550px;
+  top:11800px;
+}
+
+img.astrology{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 550px;
+  top:9400px;
+}
+
+img.bananas{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 550px;
+  top:8200px;
+}
+
+img.alone{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 500px;
+  top:6300px;
+}
+
+img.exercise{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 500px;
+  top:4870px;
+}
+
+img.optimistic{
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 520px;
+  top:3925px;
+
+}
+
+img.blue{
+  width: 550px;
+  height: auto;
+  position: absolute;
+  left: 550px;
+  top:2500px;
+}
+
+img.plates{
+  width: 400px;
+  height: auto;
+}
+
+img.one{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 180px;
+  top:2200px;
+}
+
+img.two{
+  width: 450px;
+  height: auto;
+  position: absolute;
+  left: 110px;
+  top:3600px;
+}
+
+img.three{
+  width: 350px;
+  height: auto;
+  position: absolute;
+  left: 90px;
+  top:4600px;
+}
+
+img.four{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 90px;
+  top:6000px;
+}
+
+img.five{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 90px;
+  top:7800px;
+}
+
+img.six{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 90px;
+  top:9100px;
+}
+
+img.seven{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 90px;
+  top:11500px;
+}
+
+img.eight{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 90px;
+  top:12300px;
+}
+
+img.nine{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 130px;
+  top:13600px;
+}
+
+img.ten{
+  width: 700px;
+  height: auto;
+  position: absolute;
+  left: -50px;
+  top:14600px;
+}
+
+img.ten1{
+  width: 700px;
+  height: auto;
+}
+
+div.transbox {
+position: fixed;
+top: 600px;
+left: 100px;
+}
+
+.astrosign{
+  position: absolute;
+  left: 180px;
+  top:10100px;
+}
+.astrosign1{
+  position: absolute;
+  left: 580px;
+  top:10100px;
+}
+
+.astro{
+  position: absolute;
+  left: 150px;
+  top:10500px;
+}
+
+.astro1{
+  position: absolute;
+  left: 550px;
+  top:11000px;
+}
+
+.astro2{
+  position: absolute;
+  left: 150px;
+  top:11500px;
+}
+
+.astro3{
+  position: absolute;
+  left: 550px;
+  top:12000px;
+}
+
+
+
+      </style>
+
+    </head>
+    <body>
+
+
+        <div class="button">
+          <span class="scroll-btn">
+        <a href="#">
+          <span class="mouse">
+            <span>
+            </span>
+          </span>
+        </a>
+
+
+        </span>
+        </div>
+
+
+      <div class="disclaimer">
+      <br><br><br><br><br>
+      <center>Disclaimer* <br><br>
+      Please note these are 'scientifically'<br> found examples of ways that can <br>help you achieve weight loss.
+
+
+      <br>
+      <p> However, do not try any of <br> these at home
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+
+<img class="animated-gif" src="assets/images/wave.gif" alt=>
+<img class="animated-gif" src="assets/images/question.gif" alt=>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <img class="ten1 blink-image" src="assets/images/ten1.png" alt=><br>
+  How to achieve your dream body
+
+<br><br><br><br><br><br><br><br><br><br>
+<img class="one" src="assets/images/one1.png" alt=><br>
+<br><br><br><br><br><br><br><br><br><br>
+<img class="blue" src="assets/images/blue.png" alt=><br>
+<br><br><br><br><br><br><br><br><br>
+<img class="animated-gif" src="assets/images/plates.gif" alt=>
+
+<br><br><br><br><br><br><br><br>
+<img class="two" src="assets/images/two.png" alt=><br>
+<img class="optimistic" src="assets/images/optimistic.png" alt=>
+
+
+<br><br><br>
+<img class="three" src="assets/images/three.png" alt=><br>
+  <img class="exercise" src="assets/images/exercise.png" alt=>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <img class="animated-gif" src="assets/images/3notebook.gif" alt=>
+    <img class="animated-gif" src="assets/images/exercisefinal.gif" alt=>
+
+
+<br><br><br>
+<img class="four" src="assets/images/four.png" alt=><br>
+  <img class="alone" src="assets/images/alone.png" alt=><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br>
+  <img class="animated-gif" src="assets/images/world.gif" alt=>
+  <br>
+    <img class="animated-gif" src="assets/images/iphonefinal1.gif" alt=>
+
+      <img class="animated-gif" src="assets/images/tv.gif" alt=>
+
+
+<br><br><br>
+<img class="five" src="assets/images/five.png" alt=><br>
+  <img class="bananas" src="assets/images/bananas.png" alt=>
+  <br>
+  <img class="animated-gif" src="assets/images/banana.gif" alt=>
+  <br>
+  <img class="animated-gif" src="assets/images/apple.gif" alt=>
+
+<br>
+<img class="six" src="assets/images/six.png" alt=><br>
+<img class="astrology" src="assets/images/astrology.png" alt=>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<img class="animated-gif astrosign" src="assets/images/astrosign.gif" alt=>
+<img class="animated-gif astrosign1" src="assets/images/astrosign.gif" alt=>
+
+<img class="animated-gif astro" src="assets/images/astrofinal.gif" alt=>
+<br><br><br><br><br><br>
+<img class="animated-gif astro1" src="assets/images/astro2.gif" alt=>
+<br><br><br><br><br><br>
+<img class="animated-gif astro2" src="assets/images/astro3.gif" alt=>
+<br><br><br><br><br><br>
+<img class="animated-gif astro3" src="assets/images/astro4.gif" alt=>
+
+<br>
+<img class="seven" src="assets/images/seven.png" alt=><br>
+<img class="gum" src="assets/images/gum.png" alt=>
+
+<br>
+<img class="eight" src="assets/images/eight.png" alt=><br>
+<img class="chopsticks" src="assets/images/chopsticks.png" alt=>
+<br>
+<img class="nine" src="assets/images/nine.png" alt=><br>
+<img class="laugh" src="assets/images/laugh.png" alt=>
+<br>
+<img class="animated-gif" src="assets/images/laugh.gif" alt=>
+<br>
+<img class="ten " src="assets/images/ten1.png" alt=><br>
+<img class="dontdiet" src="assets/images/dontdiet.png" alt=>
+
+
+
+
+    </center>
+  </div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer"><center>
+  <br>
+  You just burned 20 calories <br>scrolling through this .
+  <br><br>
+  Congratulations .
+  <br><br>
+  Scroll again to burn more . </center></div>
+  </body>
+
+<div class="play_bell"><img src="playbutton.png" height="50" style="max-width: 110px" alt=""></div><div class="pause_bell"><img src="stop.png" height="48" style="max-width: 100px" alt=""></div></div>
+    </html>

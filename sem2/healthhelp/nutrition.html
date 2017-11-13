@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NutritionHabits</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+
+          <style media="screen">
+    * {
+      background: #FF8C00;
+      height: 10000px;
+      }
+
+
+
+      .disclaimer{
+        font-family: helvetica;
+        font-weight: 550;
+        font-size: 34px;
+        color: white;
+      }
+
+      @-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+ .scroll-btn {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.scroll-btn > * {
+	display: inline-block;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #7f8c8d;
+	color: #ffffff;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+	color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 55px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid white;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 50%;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+	background: white;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;
+
+}
+
+.button{
+  position: fixed;
+  top: 600px;
+  left: 1000px;
+}
+
+img {
+  padding: 20px;
+  position: absolute;
+  top: 680px;
+  left: 400px;
+  width: 280px;
+height: 330px;
+
+
+
+
+-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+transform: rotate(-40deg);
+-webkit-animation: wink 0.7s alternate infinite; /* Safari 4+ */
+  -moz-animation:    wink 0.7s alternate infinite; /* Fx 5+ */
+  -o-animation:      wink 0.7s alternate infinite; /* Opera 12+ */
+  animation:         wink 0.7s alternate infinite; /* IE 10+, Fx 29+ */
+-webkit-transform-origin: 50% 100%;
+-moz-transform-origin: 50% 100%;
+-o-transform-origin: 50% 100%;
+-ms-transform-origin: 50% 100%;
+transform-origin: 50% 100%;
+-webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+animation-timing-function: ease;
+
+
+
+
+
+}
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes wink {
+    0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+
+}
+
+
+
+100% {-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);}
+
+
+
+
+}
+
+/* Standard syntax */
+@keyframes wink {
+
+
+    0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+transform: rotate(-40deg);
+}
+
+
+100% {-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);}
+
+}
+
+.question{
+top: 1350px;
+left:300px;
+height: 450px;
+width: 750px;
+}
+
+.ten{
+top: 2000px;
+left:300px;
+height: 70%;
+width: 50%;
+}
+
+  .dream{
+  font-family: helvetica;
+  font-weight: 550;
+  font-size: 50px;
+  color: white;
+      }
+  .one{
+  top: 2500px;
+  left:300px;
+  height: 70%;
+  width: 50%;
+    }
+
+    .blue{
+    font-family: helvetica;
+    font-weight: 550;
+    font-size: 80px;
+    color: white;
+        }
+
+        .plates{
+        top: 3200px;
+        left:300px;
+        height: 70%;
+        width: 50%;
+          }
+
+      </style>
+
+    </head>
+    <body>
+
+      <div class="disclaimer">
+      <br><br><br><br><br>
+      <center>Disclaimer* <br><br>
+      Please note these are 'scientifically'<br> found examples of ways that can <br>help you achieve weight loss.
+
+
+      <br>
+      <p> However, do not try any of <br> these at home </p> </center>
+  </div>
+
+<div class="button">
+  <span class="scroll-btn">
+<a href="#">
+  <span class="mouse">
+    <span>
+    </span>
+  </span>
+</a>
+<p>scroll me</p>
+
+</span>
+</div>
+
+
+<img src="assets/images/hand.png" height= '100'>
+
+<img class="question" src="assets/images/quesiton.png">
+
+<img class="ten" src="assets/images/ten.png">
+
+<img class="one" src="assets/images/one.png">
+<img class="plates" src="assets/images/plates.png">
+
+<div class="dream"><center>
+  how to achieve your dream body </div></center>
+    </body>
+
+  <div class="blue"><center>
+  Use Blue Plates . </div></center>
+  </body>
+
+
+    </html>
