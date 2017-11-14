@@ -9,34 +9,35 @@
 
     <script type="text/javascript">
 
-    		$(document).ready(function() {
+		$(document).ready(function() {
 
-    				var audioBell = document.createElement('audio');
-    				audioBell.setAttribute('src', 'nutritionhabits.mp3');
-    				$.get();
-    				audioBell.addEventListener("load", function() {
-    					audioBel. play();
-    	}, true);
-
-
+				var audioBell = document.createElement('audio');
+				audioBell.setAttribute('src', 'nutritionhabits.mp3');
+				$.get();
+				audioBell.addEventListener("load", function() {
+					audioBel. play();
+	}, true);
 
 
-            $('.play_bell').click(function() {
-              audioBell.play();
-            });
 
-    			         $('.pause_bell').click(function() {
-    			           audioBell.pause();
-    			         });
 
-    });
-    		</script>
+        $('.play_bell').click(function() {
+          audioBell.play();
+        });
+
+			         $('.pause_bell').click(function() {
+			           audioBell.pause();
+			         });
+
+});
+		</script>
+
 
 
           <style media="screen">
     * {
       background: #FF8C00;
-      height: 15000px;
+      max-height: 8000px;
       }
 
 
@@ -226,14 +227,11 @@
 .button{
   position: fixed;
   top: 600px;
-  left: 1000px;
+  left: 1060px;
+  z-index: 2;
 }
 
-div.transbox {
-position: fixed;
-top: 600px;
-left: 50px;
-}
+
 
 img.animated-gif{
   width: 400px;
@@ -516,7 +514,25 @@ left: 100px;
   top: 4250px;
 }
 
+.play{
+  position: fixed;
+  left: 50px;
+  top:630px;
+  z-index: 2;
+}
+.play1{
+  position: fixed;
+  left: 80px;
+  top:630px;
+  z-index: 2;
+}
 
+div.transbox {
+display: inline-block;
+height: 200px;
+position: fixed;
+left: 1020px;
+right: 0px;}
 
 
       </style>
@@ -524,8 +540,10 @@ left: 100px;
     </head>
     <body>
 
-      <div class="transbox">
-      				<div class="play_bell"><img src="play.png" alt=""></div><div class="pause_bell"><img src="pause.png" height="48" style="max-width: 100px" alt=""></div></div>
+      <img class="play1 play_bell" src="assets/images/play.png" alt="">
+        <img class="play pause_bell" src="assets/images/pause.png" alt="">
+      </div></div>
+
 
         <div class="button">
           <span class="scroll-btn">
