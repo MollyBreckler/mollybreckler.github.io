@@ -9,28 +9,28 @@
 
     <script type="text/javascript">
 
-		$(document).ready(function() {
+    		$(document).ready(function() {
 
-				var audioBell = document.createElement('audio');
-				audioBell.setAttribute('src', 'healthhelprecording.mp3');
-				$.get();
-				audioBell.addEventListener("load", function() {
-					audioBel. play();
-	}, true);
-
-
+    				var audioBell = document.createElement('audio');
+    				audioBell.setAttribute('src', 'nutritionhabits.mp3');
+    				$.get();
+    				audioBell.addEventListener("load", function() {
+    					audioBel. play();
+    	}, true);
 
 
-        $('.play_bell').click(function() {
-          audioBell.play();
-        });
 
-			         $('.pause_bell').click(function() {
-			           audioBell.pause();
-			         });
 
-});
-		</script>
+            $('.play_bell').click(function() {
+              audioBell.play();
+            });
+
+    			         $('.pause_bell').click(function() {
+    			           audioBell.pause();
+    			         });
+
+    });
+    		</script>
 
 
           <style media="screen">
@@ -229,7 +229,11 @@
   left: 1000px;
 }
 
-
+div.transbox {
+position: fixed;
+top: 600px;
+left: 50px;
+}
 
 img.animated-gif{
   width: 400px;
@@ -520,6 +524,8 @@ left: 100px;
     </head>
     <body>
 
+      <div class="transbox">
+      				<div class="play_bell"><img src="play.png" alt=""></div><div class="pause_bell"><img src="pause.png" height="48" style="max-width: 100px" alt=""></div></div>
 
         <div class="button">
           <span class="scroll-btn">
